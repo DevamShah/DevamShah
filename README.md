@@ -128,8 +128,8 @@ Advisory · AI governance program design · AI compliance readiness (NIST AI RMF
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=DevamShah&show_icons=true&hide_title=true&hide=contribs,issues&count_private=true&include_all_commits=true&bg_color=0a0f22&title_color=d4a24c&icon_color=d4a24c&text_color=9da3b8&border_color=0e1429&hide_border=false" height="200">
-<img src="./languages.svg" height="200">
+<img src="./stats.svg" height="220">
+<img src="./languages.svg" height="220">
 
 <br><br>
 

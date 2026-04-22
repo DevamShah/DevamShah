@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Generate languages.svg — aggregates bytes across all repos (incl private)."""
+"""Generate languages.svg + stats.svg from all repos (public + private).
+
+Needs a gh CLI auth context (GH_TOKEN or `gh auth login`) whose token has
+read access to private repos — classic PAT with 'repo' scope, or fine-grained
+with Contents:Read + Metadata:Read on all owned repos.
+"""
 import subprocess, json, collections, datetime, sys
 
 USERNAME = "DevamShah"
@@ -27,35 +32,62 @@ TITLE   = "#d4a24c"
 LABEL   = "#e8e4df"
 VALUE   = "#9da3b8"
 TRACK   = "#151e40"
+ACCENT  = "#eab84e"
 
-def fetch():
-    # /user/repos is viewer-scoped: returns all repos the token can see
-    # (public + private), including those owned by the authenticated user.
-    # More reliable than `gh repo list <username>` which can silently drop
-    # private repos depending on token scope interpretation.
-    r = subprocess.run(
-        ['gh', 'api', '--paginate',
-         '/user/repos?visibility=all&affiliation=owner&per_page=100'],
-        capture_output=True, text=True, check=True)
-    # --paginate concatenates JSON arrays — parse each array chunk
-    raw = r.stdout.strip()
+
+def gh(args, check=True):
+    r = subprocess.run(args, capture_output=True, text=True, check=check)
+    return r.stdout
+
+
+def fetch_repos():
+    raw = gh(['gh', 'api', '--paginate',
+              '/user/repos?visibility=all&affiliation=owner&per_page=100']).strip()
     repos = []
-    # gh --paginate joins arrays as "][": split and re-parse chunks
     for chunk in raw.replace('][', ']\n[').split('\n'):
         repos.extend(json.loads(chunk))
-    repos = [x for x in repos if not x.get('fork') and not x.get('archived')]
+    return [x for x in repos if not x.get('fork') and not x.get('archived')]
+
+
+def fetch_languages(repos):
     totals = collections.Counter()
     for x in repos:
-        full = x['full_name']
-        o = subprocess.run(['gh', 'api', f'/repos/{full}/languages'],
-                           capture_output=True, text=True, check=True)
-        for k, v in json.loads(o.stdout).items():
+        langs = json.loads(gh(['gh', 'api', f'/repos/{x["full_name"]}/languages']))
+        for k, v in langs.items():
             totals[k] += v
-    return totals, len(repos)
+    return totals
 
-def esc(s): return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 
-def render(totals, repo_count):
+def fetch_profile_stats():
+    """Uses GraphQL for accurate public+private contribution counts."""
+    query = """query($u:String!) {
+      user(login:$u) {
+        createdAt
+        contributionsCollection {
+          totalCommitContributions
+          totalPullRequestContributions
+          totalIssueContributions
+          totalPullRequestReviewContributions
+          restrictedContributionsCount
+        }
+      }
+    }"""
+    out = gh(['gh', 'api', 'graphql', '-f', f'query={query}', '-F', f'u={USERNAME}'])
+    return json.loads(out)['data']['user']
+
+
+def esc(s):
+    return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+
+
+def svg_open(w, h):
+    return [
+        f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" xmlns="http://www.w3.org/2000/svg" role="img">',
+        f'<rect width="{w}" height="{h}" rx="10" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>',
+    ]
+
+
+def render_languages(totals, repo_count):
     grand = sum(totals.values())
     items = [(k, v) for k, v in totals.most_common() if v * 100 / grand >= 0.4]
 
@@ -67,12 +99,9 @@ def render(totals, repo_count):
     footer_h = 38
     H = header_h + row_h * len(items) + footer_h
 
-    svg = [
-        f'<svg width="{W}" height="{H}" viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img">',
-        f'<rect width="{W}" height="{H}" rx="10" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>',
-        f'<text x="{pad}" y="30" fill="{TITLE}" font-family="-apple-system,Segoe UI,sans-serif" font-size="16" font-weight="700" letter-spacing=".02em">Languages</text>',
-        f'<text x="{pad}" y="50" fill="{VALUE}" font-family="-apple-system,Segoe UI,sans-serif" font-size="11">across {repo_count} repositories · public + private</text>',
-    ]
+    svg = svg_open(W, H)
+    svg.append(f'<text x="{pad}" y="30" fill="{TITLE}" font-family="-apple-system,Segoe UI,sans-serif" font-size="16" font-weight="700" letter-spacing=".02em">Languages</text>')
+    svg.append(f'<text x="{pad}" y="50" fill="{VALUE}" font-family="-apple-system,Segoe UI,sans-serif" font-size="11">across {repo_count} repositories · public + private</text>')
 
     y = header_h
     for name, bytes_ in items:
@@ -91,13 +120,72 @@ def render(totals, repo_count):
     svg.append('</svg>')
     return '\n'.join(svg)
 
+
+def render_stats(repos, lang_count, total_bytes, profile):
+    total_repos = len(repos)
+    public_repos = sum(1 for r in repos if not r.get('private'))
+    private_repos = total_repos - public_repos
+    total_stars = sum(r.get('stargazers_count', 0) for r in repos)
+
+    contrib = profile['contributionsCollection']
+    commits_12mo = contrib['totalCommitContributions'] + contrib['restrictedContributionsCount']
+    prs = contrib['totalPullRequestContributions']
+    reviews = contrib['totalPullRequestReviewContributions']
+    issues = contrib['totalIssueContributions']
+
+    created = datetime.datetime.fromisoformat(profile['createdAt'].replace('Z', '+00:00'))
+    member_yrs = (datetime.datetime.now(created.tzinfo) - created).days / 365.25
+
+    rows = [
+        ("Repositories",        f"{total_repos}",    f"{public_repos} public · {private_repos} private"),
+        ("Languages shipped",   f"{lang_count}",     f"{total_bytes / (1024*1024):.1f} MB indexed"),
+        ("Stars received",      f"{total_stars}",    "across public repositories"),
+        ("Commits (12 mo)",     f"{commits_12mo:,}", "public + private contributions"),
+        ("Pull requests",       f"{prs}",            f"authored · {reviews} reviewed"),
+        ("Issues authored",     f"{issues}",         ""),
+    ]
+
+    W, pad = 495, 22
+    row_h = 28
+    header_h = 62
+    footer_h = 38
+    H = header_h + row_h * len(rows) + footer_h
+
+    svg = svg_open(W, H)
+    svg.append(f'<text x="{pad}" y="30" fill="{TITLE}" font-family="-apple-system,Segoe UI,sans-serif" font-size="16" font-weight="700" letter-spacing=".02em">Profile</text>')
+    svg.append(f'<text x="{pad}" y="50" fill="{VALUE}" font-family="-apple-system,Segoe UI,sans-serif" font-size="11">aggregate stats · public + private</text>')
+
+    label_x = pad
+    value_x = pad + 190
+    note_x = pad + 260
+    y = header_h
+    for label, value, note in rows:
+        svg.append(f'<text x="{label_x}" y="{y+14}" fill="{LABEL}" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">{esc(label)}</text>')
+        svg.append(f'<text x="{value_x}" y="{y+14}" fill="{ACCENT}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700">{esc(value)}</text>')
+        if note:
+            svg.append(f'<text x="{note_x}" y="{y+14}" fill="{VALUE}" font-family="-apple-system,Segoe UI,sans-serif" font-size="11">{esc(note)}</text>')
+        y += row_h
+
+    today = datetime.date.today().isoformat()
+    footer = f"Member since {created.strftime('%Y')} · {member_yrs:.1f} years on GitHub · updated {today}"
+    svg.append(f'<text x="{pad}" y="{H-14}" fill="{VALUE}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10" letter-spacing=".04em">{esc(footer)}</text>')
+    svg.append('</svg>')
+    return '\n'.join(svg)
+
+
 def main():
-    totals, n = fetch()
-    svg = render(totals, n)
-    out = sys.argv[1] if len(sys.argv) > 1 else 'languages.svg'
-    with open(out, 'w') as f:
-        f.write(svg)
-    print(f"Wrote {out} — {len(totals)} languages across {n} repos")
+    repos = fetch_repos()
+    langs = fetch_languages(repos)
+    profile = fetch_profile_stats()
+
+    with open('languages.svg', 'w') as f:
+        f.write(render_languages(langs, len(repos)))
+    with open('stats.svg', 'w') as f:
+        f.write(render_stats(repos, len(langs), sum(langs.values()), profile))
+
+    print(f"languages.svg — {len(langs)} languages across {len(repos)} repos")
+    print(f"stats.svg     — {len(repos)} repos · {sum(r.get('stargazers_count',0) for r in repos)} stars")
+
 
 if __name__ == '__main__':
     main()
