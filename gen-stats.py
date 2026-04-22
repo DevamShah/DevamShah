@@ -29,13 +29,26 @@ VALUE   = "#9da3b8"
 TRACK   = "#151e40"
 
 def fetch():
-    r = subprocess.run(['gh', 'repo', 'list', USERNAME, '--limit', '200', '--no-archived',
-                        '--json', 'name,isFork'], capture_output=True, text=True)
-    repos = [x for x in json.loads(r.stdout) if not x['isFork']]
+    # /user/repos is viewer-scoped: returns all repos the token can see
+    # (public + private), including those owned by the authenticated user.
+    # More reliable than `gh repo list <username>` which can silently drop
+    # private repos depending on token scope interpretation.
+    r = subprocess.run(
+        ['gh', 'api', '--paginate',
+         '/user/repos?visibility=all&affiliation=owner&per_page=100'],
+        capture_output=True, text=True, check=True)
+    # --paginate concatenates JSON arrays — parse each array chunk
+    raw = r.stdout.strip()
+    repos = []
+    # gh --paginate joins arrays as "][": split and re-parse chunks
+    for chunk in raw.replace('][', ']\n[').split('\n'):
+        repos.extend(json.loads(chunk))
+    repos = [x for x in repos if not x.get('fork') and not x.get('archived')]
     totals = collections.Counter()
     for x in repos:
-        o = subprocess.run(['gh', 'api', f'/repos/{USERNAME}/{x["name"]}/languages'],
-                           capture_output=True, text=True)
+        full = x['full_name']
+        o = subprocess.run(['gh', 'api', f'/repos/{full}/languages'],
+                           capture_output=True, text=True, check=True)
         for k, v in json.loads(o.stdout).items():
             totals[k] += v
     return totals, len(repos)
