@@ -20,10 +20,13 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Regenerate languages.svg
+      - name: Install cloc
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq cloc
+
+      - name: Regenerate languages.svg + stats.svg
         env:
           GH_TOKEN: ${{ secrets.STATS_READ_PAT }}
-        run: python3 gen-stats.py languages.svg
+        run: python3 gen-stats.py
 
       - name: Commit if changed
         run: |
