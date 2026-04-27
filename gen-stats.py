@@ -75,8 +75,12 @@ CLOC_TO_LINGUIST = {
 def fetch_loc(repos):
     """Shallow-clone each repo, run cloc, aggregate LOC by language."""
     totals = collections.Counter()
-    token = os.environ.get('GH_TOKEN', '')
+    token = os.environ.get('GH_TOKEN', '').strip()
+    if not token:
+        print("  WARNING: GH_TOKEN empty — private clones will fail", file=sys.stderr)
     workdir = tempfile.mkdtemp(prefix='loc-')
+    ok = 0
+    skipped = 0
     try:
         for r in repos:
             full = r['full_name']
@@ -87,20 +91,30 @@ def fetch_loc(repos):
                     ['git', 'clone', '--depth=1', '--quiet', url, dest],
                     check=True, capture_output=True, text=True, timeout=120,
                 )
-            except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
-                print(f"  skip {full}: clone failed ({e})", file=sys.stderr)
+            except subprocess.CalledProcessError as e:
+                stderr = (e.stderr or '').replace(token, '***')
+                print(f"  skip {full}: clone failed exit={e.returncode} {stderr[:200]}", file=sys.stderr)
+                skipped += 1
+                continue
+            except subprocess.TimeoutExpired:
+                print(f"  skip {full}: clone timed out", file=sys.stderr)
+                skipped += 1
                 continue
 
+            repo_loc = 0
             try:
                 out = subprocess.run(
-                    ['cloc', '--json', '--quiet', '--vcs=git', dest],
+                    ['cloc', '--json', '--quiet', dest],
                     capture_output=True, text=True, timeout=180, check=False,
                 )
                 if not out.stdout.strip():
+                    print(f"  skip {full}: cloc empty (stderr={out.stderr[:120]})", file=sys.stderr)
+                    skipped += 1
                     continue
                 data = json.loads(out.stdout)
             except (subprocess.TimeoutExpired, json.JSONDecodeError) as e:
                 print(f"  skip {full}: cloc failed ({e})", file=sys.stderr)
+                skipped += 1
                 continue
             finally:
                 shutil.rmtree(dest, ignore_errors=True)
@@ -113,8 +127,12 @@ def fetch_loc(repos):
                     continue
                 key = CLOC_TO_LINGUIST.get(lang, lang)
                 totals[key] += code
+                repo_loc += code
+            ok += 1
+            print(f"  ok   {full}: {repo_loc:,} LOC", file=sys.stderr)
     finally:
         shutil.rmtree(workdir, ignore_errors=True)
+    print(f"  → {ok} ok, {skipped} skipped, total {sum(totals.values()):,} LOC", file=sys.stderr)
     return totals
 
 
