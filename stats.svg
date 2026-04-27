@@ -7,15 +7,15 @@
 <text x="282" y="76" fill="#9da3b8" font-family="-apple-system,Segoe UI,sans-serif" font-size="11">17 public · 15 private</text>
 <text x="22" y="104" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">Languages shipped</text>
 <text x="212" y="104" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700">15</text>
-<text x="282" y="104" fill="#9da3b8" font-family="-apple-system,Segoe UI,sans-serif" font-size="11">25.9 MB indexed</text>
+<text x="282" y="104" fill="#9da3b8" font-family="-apple-system,Segoe UI,sans-serif" font-size="11">22.9 MB indexed</text>
 <text x="22" y="132" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">Lines of code</text>
-<text x="212" y="132" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700">0</text>
+<text x="212" y="132" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700">777.2K</text>
 <text x="282" y="132" fill="#9da3b8" font-family="-apple-system,Segoe UI,sans-serif" font-size="11">across all source files</text>
 <text x="22" y="160" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">Stars received</text>
 <text x="212" y="160" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700">2</text>
 <text x="282" y="160" fill="#9da3b8" font-family="-apple-system,Segoe UI,sans-serif" font-size="11">across public repositories</text>
 <text x="22" y="188" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">Commits (12 mo)</text>
-<text x="212" y="188" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700">133</text>
+<text x="212" y="188" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700">135</text>
 <text x="282" y="188" fill="#9da3b8" font-family="-apple-system,Segoe UI,sans-serif" font-size="11">public + private contributions</text>
 <text x="22" y="216" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">Pull requests</text>
 <text x="212" y="216" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700">4</text>
