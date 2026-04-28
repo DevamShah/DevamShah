@@ -100,14 +100,24 @@ Human-mimicry by design. Always safe-mode. Full jitter. Never 24/7. Built on the
 Public pull requests to repositories I don't own — auto-refreshed daily.
 
 <!-- contributions:start -->
-**2 merged · 1 in review · 1 closed** across **2** external repositories.
+**2 merged · 1 in review · 1 closed** across **2** external project(s).
+
+### Projects with accepted contributions
+
+- **[GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering)** (98 ⭐) — _Official open-source GRC toolkit from the GRC Engineering Club. Claude Code plugins for evidence collection, SCF crosswalks, multi-framework gap reports, OSCAL workflows._<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 1 closed · merged diff **+1,698 / −7**
+- **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)** (40.6K ⭐) — _Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production._<br>&nbsp;&nbsp;🟡 1 in review
+
+<details>
+<summary><b>All pull requests</b></summary>
 
 | Repository | ⭐ | Pull Request | Diff | Status |
 |---|---:|---|---:|---|
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 98 | [#72](https://github.com/GRCEngClub/claude-grc-engineering/pull/72) feat(frameworks): Reference-depth India DPDPA plugin (ind-dpdpa) | +1,425 / −0 | ✅ Merged |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 98 | [#71](https://github.com/GRCEngClub/claude-grc-engineering/pull/71) ci(plugins): validate manifests against JSON Schema on every PR | +273 / −7 | ✅ Merged |
-| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 40.6K | [#322](https://github.com/KeygraphHQ/shannon/pull/322) Security hardening, CLI bug fixes, and SARIF report output | +1,677 / −40 | 🟡 Open |
+| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 40.6K | [#322](https://github.com/KeygraphHQ/shannon/pull/322) Security hardening, CLI bug fixes, and SARIF report output | +1,677 / −40 | 🟡 In review |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 98 | [#70](https://github.com/GRCEngClub/claude-grc-engineering/pull/70) fix(plugins): use object form for plugin.json author field | +7 / −7 | ⚪ Closed |
+
+</details>
 <!-- contributions:end -->
 
 ---
