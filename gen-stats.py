@@ -71,6 +71,14 @@ CLOC_TO_LINGUIST = {
     "C/C++ Header":      "C++",
 }
 
+# Non-code formats — counted by cloc but excluded from the "languages I write"
+# display. Data, docs, config — not programming output.
+NON_CODE_LANGUAGES = {
+    "Markdown", "JSON", "JSON5", "JSON with Comments", "YAML", "TOML",
+    "INI", "CSV", "Text", "XML", "SVG", "Properties", "diff",
+    "make", "CMake", "Bazel",
+}
+
 
 def fetch_loc(repos):
     """Shallow-clone each repo, run cloc, aggregate LOC by language."""
@@ -165,28 +173,72 @@ def fmt_stars(n):
 
 
 def render_contributions_md(prs):
-    """Build markdown block for the README contributions section."""
+    """Build markdown block for the README contributions section.
+
+    Two parts:
+      1. Projects showcase — deduped per-repo with merged/open/closed counts.
+      2. Pull-request detail table — every PR with diff + state.
+    """
     if not prs:
         return "_No external open-source contributions tracked yet._"
 
-    state_emoji = {"MERGED": "✅ Merged", "OPEN": "🟡 Open", "CLOSED": "⚪ Closed"}
+    state_emoji = {"MERGED": "✅ Merged", "OPEN": "🟡 In review", "CLOSED": "⚪ Closed"}
     state_order = {"MERGED": 0, "OPEN": 1, "CLOSED": 2}
 
-    # group by repo for the summary line
+    # ---- Aggregate per-repo ----
     repos = {}
     for p in prs:
         r = p['repository']['nameWithOwner']
-        repos.setdefault(r, {'stars': p['repository']['stargazerCount'], 'url': p['repository']['url'], 'count': 0})
-        repos[r]['count'] += 1
+        if r not in repos:
+            repos[r] = {
+                'name': r,
+                'url': p['repository']['url'],
+                'stars': p['repository']['stargazerCount'],
+                'description': p['repository'].get('description') or '',
+                'merged': 0, 'open': 0, 'closed': 0,
+                'lines_added': 0, 'lines_removed': 0,
+            }
+        bucket = p['state'].lower()
+        if bucket in repos[r]:
+            repos[r][bucket] += 1
+        if p['state'] == 'MERGED':
+            repos[r]['lines_added'] += p['additions']
+            repos[r]['lines_removed'] += p['deletions']
 
     merged = sum(1 for p in prs if p['state'] == 'MERGED')
     opn = sum(1 for p in prs if p['state'] == 'OPEN')
     closed = sum(1 for p in prs if p['state'] == 'CLOSED')
 
-    summary = f"**{merged} merged · {opn} in review · {closed} closed** across **{len(repos)}** external repositories."
+    summary = f"**{merged} merged · {opn} in review · {closed} closed** across **{len(repos)}** external project(s)."
 
-    lines = [
-        summary,
+    # ---- Projects showcase ----
+    proj_lines = ["", "### Projects with accepted contributions", ""]
+    # sort: most merged first, then by stars
+    proj_sorted = sorted(repos.values(), key=lambda r: (-r['merged'], -r['stars']))
+    for r in proj_sorted:
+        badges = []
+        if r['merged']:
+            badges.append(f"✅ {r['merged']} merged")
+        if r['open']:
+            badges.append(f"🟡 {r['open']} in review")
+        if r['closed']:
+            badges.append(f"⚪ {r['closed']} closed")
+        badge_str = " · ".join(badges)
+        desc = r['description'].strip()
+        desc_part = f" — _{desc}_" if desc else ""
+        impact = ""
+        if r['merged']:
+            impact = f" · merged diff **+{r['lines_added']:,} / −{r['lines_removed']:,}**"
+        proj_lines.append(
+            f"- **[{r['name']}]({r['url']})** ({fmt_stars(r['stars'])} ⭐){desc_part}<br>"
+            f"&nbsp;&nbsp;{badge_str}{impact}"
+        )
+
+    # ---- PR detail table ----
+    table_lines = [
+        "",
+        "<details>",
+        "<summary><b>All pull requests</b></summary>",
         "",
         "| Repository | ⭐ | Pull Request | Diff | Status |",
         "|---|---:|---|---:|---|",
@@ -203,16 +255,18 @@ def render_contributions_md(prs):
         repo = p['repository']
         stars = fmt_stars(repo['stargazerCount'])
         title = p['title'].replace('|', '\\|')
-        # truncate very long titles
         if len(title) > 70:
             title = title[:67] + "…"
         pr_num = p['url'].rsplit('/', 1)[-1]
         diff = f"+{p['additions']:,} / −{p['deletions']:,}"
         status = state_emoji.get(p['state'], p['state'])
-        lines.append(
+        table_lines.append(
             f"| [{repo['nameWithOwner']}]({repo['url']}) | {stars} | [#{pr_num}]({p['url']}) {title} | {diff} | {status} |"
         )
-    return '\n'.join(lines)
+    table_lines.append("")
+    table_lines.append("</details>")
+
+    return '\n'.join([summary] + proj_lines + table_lines)
 
 
 def update_readme(readme_path, contributions_md):
@@ -272,10 +326,20 @@ def fmt_loc(n):
 
 
 def render_languages(totals, loc_totals, repo_count):
-    grand = sum(totals.values())
-    # Filter by byte share, then SORT BY LOC desc — LOC is the primary signal.
-    items = [(k, v) for k, v in totals.items() if v * 100 / grand >= 0.4]
-    items.sort(key=lambda kv: (-loc_totals.get(kv[0], 0), -kv[1]))
+    """Both bar % and ordering use LOC — keeps the visual math consistent.
+
+    Iterate over loc_totals (cloc) rather than totals (Linguist bytes) so that
+    high-LOC languages cloc detects but Linguist doesn't (e.g. YAML, JSON,
+    Markdown, Dockerfile) are not silently dropped.
+    """
+    code_loc = {k: v for k, v in loc_totals.items() if k not in NON_CODE_LANGUAGES}
+    grand_loc = sum(code_loc.values()) or 1
+    grand_bytes = sum(totals.values()) or 1
+    items = [
+        (k, v) for k, v in code_loc.items()
+        if v * 100 / grand_loc >= 0.4
+    ]
+    items.sort(key=lambda kv: -kv[1])
 
     W, pad = 560, 22
     row_h = 28
@@ -291,11 +355,10 @@ def render_languages(totals, loc_totals, repo_count):
     svg.append(f'<text x="{pad}" y="50" fill="{VALUE}" font-family="-apple-system,Segoe UI,sans-serif" font-size="11">across {repo_count} repositories · public + private</text>')
 
     y = header_h
-    for name, bytes_ in items:
-        pct = bytes_ * 100 / grand
+    for name, loc in items:
+        pct = loc * 100 / grand_loc
         fill = COLORS.get(name, FALLBACK)
         bar_fill = max(2, int(bar_w * pct / 100))
-        loc = loc_totals.get(name, 0)
         svg.append(f'<text x="{pad}" y="{y+14}" fill="{LABEL}" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">{esc(name)}</text>')
         svg.append(f'<text x="{bar_x-10}" y="{y+14}" text-anchor="end" fill="{VALUE}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">{pct:.1f}%</text>')
         svg.append(f'<rect x="{bar_x}" y="{y+4}" width="{bar_w}" height="10" rx="5" fill="{TRACK}"/>')
@@ -303,10 +366,9 @@ def render_languages(totals, loc_totals, repo_count):
         svg.append(f'<text x="{loc_x}" y="{y+14}" text-anchor="end" fill="{ACCENT}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">{fmt_loc(loc)} LOC</text>')
         y += row_h
 
-    total_mb = grand / (1024 * 1024)
-    total_loc = sum(loc_totals.values())
+    total_mb = grand_bytes / (1024 * 1024)
     today = datetime.date.today().isoformat()
-    svg.append(f'<text x="{pad}" y="{H-14}" fill="{VALUE}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10" letter-spacing=".04em">{total_mb:.1f} MB · {fmt_loc(total_loc)} lines of code · updated {today}</text>')
+    svg.append(f'<text x="{pad}" y="{H-14}" fill="{VALUE}" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10" letter-spacing=".04em">% by lines of code · {total_mb:.1f} MB · {fmt_loc(grand_loc)} LOC · updated {today}</text>')
     svg.append('</svg>')
     return '\n'.join(svg)
 
@@ -316,7 +378,8 @@ def render_stats(repos, lang_count, total_bytes, loc_totals, profile):
     public_repos = sum(1 for r in repos if not r.get('private'))
     private_repos = total_repos - public_repos
     total_stars = sum(r.get('stargazers_count', 0) for r in repos)
-    total_loc = sum(loc_totals.values())
+    code_loc = sum(v for k, v in loc_totals.items() if k not in NON_CODE_LANGUAGES)
+    total_loc = code_loc
 
     contrib = profile['contributionsCollection']
     commits_12mo = contrib['totalCommitContributions'] + contrib['restrictedContributionsCount']
