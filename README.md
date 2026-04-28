@@ -100,7 +100,14 @@ Human-mimicry by design. Always safe-mode. Full jitter. Never 24/7. Built on the
 Public pull requests to repositories I don't own — auto-refreshed daily.
 
 <!-- contributions:start -->
-_(generated)_
+**2 merged · 1 in review · 1 closed** across **2** external repositories.
+
+| Repository | ⭐ | Pull Request | Diff | Status |
+|---|---:|---|---:|---|
+| [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 98 | [#72](https://github.com/GRCEngClub/claude-grc-engineering/pull/72) feat(frameworks): Reference-depth India DPDPA plugin (ind-dpdpa) | +1,425 / −0 | ✅ Merged |
+| [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 98 | [#71](https://github.com/GRCEngClub/claude-grc-engineering/pull/71) ci(plugins): validate manifests against JSON Schema on every PR | +273 / −7 | ✅ Merged |
+| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 40.6K | [#322](https://github.com/KeygraphHQ/shannon/pull/322) Security hardening, CLI bug fixes, and SARIF report output | +1,677 / −40 | 🟡 Open |
+| [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 98 | [#70](https://github.com/GRCEngClub/claude-grc-engineering/pull/70) fix(plugins): use object form for plugin.json author field | +7 / −7 | ⚪ Closed |
 <!-- contributions:end -->
 
 ---
