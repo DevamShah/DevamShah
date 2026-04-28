@@ -136,6 +136,104 @@ def fetch_loc(repos):
     return totals
 
 
+def fetch_contributions():
+    """Public PRs to external repos (not owned by USERNAME), grouped by state."""
+    query = """query($u:String!) {
+      user(login:$u) {
+        pullRequests(first: 100, orderBy: {field: CREATED_AT, direction: DESC}) {
+          nodes {
+            title url state mergedAt createdAt
+            additions deletions changedFiles
+            repository { nameWithOwner owner { login } isPrivate stargazerCount url description }
+          }
+        }
+      }
+    }"""
+    out = gh(['gh', 'api', 'graphql', '-f', f'query={query}', '-F', f'u={USERNAME}'])
+    nodes = json.loads(out)['data']['user']['pullRequests']['nodes']
+    return [
+        n for n in nodes
+        if n['repository']['owner']['login'] != USERNAME
+        and not n['repository']['isPrivate']
+    ]
+
+
+def fmt_stars(n):
+    if n >= 1_000:
+        return f"{n/1_000:.1f}K"
+    return str(n)
+
+
+def render_contributions_md(prs):
+    """Build markdown block for the README contributions section."""
+    if not prs:
+        return "_No external open-source contributions tracked yet._"
+
+    state_emoji = {"MERGED": "✅ Merged", "OPEN": "🟡 Open", "CLOSED": "⚪ Closed"}
+    state_order = {"MERGED": 0, "OPEN": 1, "CLOSED": 2}
+
+    # group by repo for the summary line
+    repos = {}
+    for p in prs:
+        r = p['repository']['nameWithOwner']
+        repos.setdefault(r, {'stars': p['repository']['stargazerCount'], 'url': p['repository']['url'], 'count': 0})
+        repos[r]['count'] += 1
+
+    merged = sum(1 for p in prs if p['state'] == 'MERGED')
+    opn = sum(1 for p in prs if p['state'] == 'OPEN')
+    closed = sum(1 for p in prs if p['state'] == 'CLOSED')
+
+    summary = f"**{merged} merged · {opn} in review · {closed} closed** across **{len(repos)}** external repositories."
+
+    lines = [
+        summary,
+        "",
+        "| Repository | ⭐ | Pull Request | Diff | Status |",
+        "|---|---:|---|---:|---|",
+    ]
+    sorted_prs = sorted(
+        prs,
+        key=lambda p: (
+            state_order.get(p['state'], 99),
+            -(p['repository']['stargazerCount']),
+            -(p['additions'] + p['deletions']),
+        ),
+    )
+    for p in sorted_prs:
+        repo = p['repository']
+        stars = fmt_stars(repo['stargazerCount'])
+        title = p['title'].replace('|', '\\|')
+        # truncate very long titles
+        if len(title) > 70:
+            title = title[:67] + "…"
+        pr_num = p['url'].rsplit('/', 1)[-1]
+        diff = f"+{p['additions']:,} / −{p['deletions']:,}"
+        status = state_emoji.get(p['state'], p['state'])
+        lines.append(
+            f"| [{repo['nameWithOwner']}]({repo['url']}) | {stars} | [#{pr_num}]({p['url']}) {title} | {diff} | {status} |"
+        )
+    return '\n'.join(lines)
+
+
+def update_readme(readme_path, contributions_md):
+    """Replace content between <!-- contributions:start --> and <!-- contributions:end -->."""
+    start = "<!-- contributions:start -->"
+    end = "<!-- contributions:end -->"
+    with open(readme_path) as f:
+        text = f.read()
+    if start not in text or end not in text:
+        print(f"  README: markers missing, skipping injection", file=sys.stderr)
+        return False
+    pre = text.split(start)[0]
+    post = text.split(end)[1]
+    new = f"{pre}{start}\n{contributions_md}\n{end}{post}"
+    if new == text:
+        return False
+    with open(readme_path, 'w') as f:
+        f.write(new)
+    return True
+
+
 def fetch_profile_stats():
     """Uses GraphQL for accurate public+private contribution counts."""
     query = """query($u:String!) {
@@ -175,7 +273,9 @@ def fmt_loc(n):
 
 def render_languages(totals, loc_totals, repo_count):
     grand = sum(totals.values())
-    items = [(k, v) for k, v in totals.most_common() if v * 100 / grand >= 0.4]
+    # Filter by byte share, then SORT BY LOC desc — LOC is the primary signal.
+    items = [(k, v) for k, v in totals.items() if v * 100 / grand >= 0.4]
+    items.sort(key=lambda kv: (-loc_totals.get(kv[0], 0), -kv[1]))
 
     W, pad = 560, 22
     row_h = 28
@@ -279,10 +379,20 @@ def main():
     print("fetching profile stats…", file=sys.stderr)
     profile = fetch_profile_stats()
 
+    print("fetching public contributions…", file=sys.stderr)
+    prs = fetch_contributions()
+    print(f"  {len(prs)} external PRs (merged/open/closed)", file=sys.stderr)
+
     with open('languages.svg', 'w') as f:
         f.write(render_languages(langs, loc_totals, len(repos)))
     with open('stats.svg', 'w') as f:
         f.write(render_stats(repos, len(langs), sum(langs.values()), loc_totals, profile))
+
+    contributions_md = render_contributions_md(prs)
+    if update_readme('README.md', contributions_md):
+        print("README.md — contributions section updated")
+    else:
+        print("README.md — no change (or markers missing)")
 
     print(f"languages.svg — {len(langs)} languages across {len(repos)} repos · {sum(loc_totals.values()):,} LOC")
     print(f"stats.svg     — {len(repos)} repos · {sum(r.get('stargazers_count',0) for r in repos)} stars")

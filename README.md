@@ -95,6 +95,16 @@ Human-mimicry by design. Always safe-mode. Full jitter. Never 24/7. Built on the
 
 ---
 
+## Open-Source Contributions
+
+Public pull requests to repositories I don't own — auto-refreshed daily.
+
+<!-- contributions:start -->
+_(generated)_
+<!-- contributions:end -->
+
+---
+
 ## Expertise
 
 **AI & LLM Security** — MLSecOps · Prompt injection defense · AI red teaming · Model supply chain · OWASP Top 10 for LLMs · RAG security · Agentic controls · Inference-time abuse monitoring
