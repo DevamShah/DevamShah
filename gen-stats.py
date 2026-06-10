@@ -145,10 +145,15 @@ def fetch_loc(repos):
 
 
 def fetch_contributions():
-    """Public PRs to external repos (not owned by USERNAME), grouped by state."""
-    query = """query($u:String!) {
+    """Public PRs to external repos (not owned by USERNAME), grouped by state.
+
+    Paginates so the count never silently caps at 100 — important as the
+    external-contribution volume scales into the hundreds.
+    """
+    query = """query($u:String!, $after:String) {
       user(login:$u) {
-        pullRequests(first: 100, orderBy: {field: CREATED_AT, direction: DESC}) {
+        pullRequests(first: 100, after: $after, orderBy: {field: CREATED_AT, direction: DESC}) {
+          pageInfo { hasNextPage endCursor }
           nodes {
             title url state mergedAt createdAt
             additions deletions changedFiles
@@ -157,8 +162,16 @@ def fetch_contributions():
         }
       }
     }"""
-    out = gh(['gh', 'api', 'graphql', '-f', f'query={query}', '-F', f'u={USERNAME}'])
-    nodes = json.loads(out)['data']['user']['pullRequests']['nodes']
+    nodes, after = [], None
+    while True:
+        args = ['gh', 'api', 'graphql', '-f', f'query={query}', '-F', f'u={USERNAME}']
+        if after:
+            args += ['-F', f'after={after}']
+        page = json.loads(gh(args))['data']['user']['pullRequests']
+        nodes += page['nodes']
+        if not page['pageInfo']['hasNextPage']:
+            break
+        after = page['pageInfo']['endCursor']
     return [
         n for n in nodes
         if n['repository']['owner']['login'] != USERNAME
@@ -269,23 +282,39 @@ def render_contributions_md(prs):
     return '\n'.join([summary] + proj_lines + table_lines)
 
 
-def update_readme(readme_path, contributions_md):
-    """Replace content between <!-- contributions:start --> and <!-- contributions:end -->."""
-    start = "<!-- contributions:start -->"
-    end = "<!-- contributions:end -->"
+def render_hero_badge(prs):
+    """A live, top-of-profile badge pair making merged OSS PRs the hero stat."""
+    merged = sum(1 for p in prs if p['state'] == 'MERGED')
+    repos = {p['repository']['nameWithOwner'] for p in prs if p['state'] == 'MERGED'}
+    return (
+        f'<img src="https://img.shields.io/badge/OSS_Merged_PRs-{merged}-d4a24c'
+        f'?style=for-the-badge&logo=github&logoColor=d4a24c&labelColor=0a0f22">\n'
+        f'<img src="https://img.shields.io/badge/Across-{len(repos)}_security_projects-0a0f22'
+        f'?style=for-the-badge&labelColor=0a0f22">'
+    )
+
+
+def update_marker(readme_path, start, end, content, label=""):
+    """Replace content between an HTML-comment marker pair. Returns True if changed."""
     with open(readme_path) as f:
         text = f.read()
     if start not in text or end not in text:
-        print(f"  README: markers missing, skipping injection", file=sys.stderr)
+        print(f"  README: {label or start} markers missing, skipping", file=sys.stderr)
         return False
     pre = text.split(start)[0]
     post = text.split(end)[1]
-    new = f"{pre}{start}\n{contributions_md}\n{end}{post}"
+    new = f"{pre}{start}\n{content}\n{end}{post}"
     if new == text:
         return False
     with open(readme_path, 'w') as f:
         f.write(new)
     return True
+
+
+def update_readme(readme_path, contributions_md):
+    """Replace content between <!-- contributions:start --> and <!-- contributions:end -->."""
+    return update_marker(readme_path, "<!-- contributions:start -->",
+                         "<!-- contributions:end -->", contributions_md, "contributions")
 
 
 def fetch_profile_stats():
@@ -456,6 +485,10 @@ def main():
         print("README.md — contributions section updated")
     else:
         print("README.md — no change (or markers missing)")
+
+    if update_marker('README.md', "<!-- merged-badge:start -->",
+                     "<!-- merged-badge:end -->", render_hero_badge(prs), "hero-badge"):
+        print("README.md — hero badge updated")
 
     print(f"languages.svg — {len(langs)} languages across {len(repos)} repos · {sum(loc_totals.values()):,} LOC")
     print(f"stats.svg     — {len(repos)} repos · {sum(r.get('stargazers_count',0) for r in repos)} stars")

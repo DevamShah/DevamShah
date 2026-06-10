@@ -15,6 +15,13 @@
 <a href="mailto:devamshah91@gmail.com"><img src="https://img.shields.io/badge/Email-direct-0a0f22?style=for-the-badge&logo=maildotru&logoColor=d4a24c&labelColor=0a0f22"></a>
 <img src="https://komarev.com/ghpvc/?username=DevamShah&label=Profile+Views&color=d4a24c&style=for-the-badge">
 
+<br><br>
+
+<!-- merged-badge:start -->
+<img src="https://img.shields.io/badge/OSS_Merged_PRs-7-d4a24c?style=for-the-badge&logo=github&logoColor=d4a24c&labelColor=0a0f22">
+<img src="https://img.shields.io/badge/Across-2_security_projects-0a0f22?style=for-the-badge&labelColor=0a0f22">
+<!-- merged-badge:end -->
+
 </div>
 
 ---
