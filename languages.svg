@@ -1,24 +1,24 @@
-<svg width="560" height="296" viewBox="0 0 560 296" xmlns="http://www.w3.org/2000/svg" role="img">
-<rect width="560" height="296" rx="10" fill="#0a0f22" stroke="#1a2340" stroke-width="1"/>
+<svg width="560" height="408" viewBox="0 0 560 408" xmlns="http://www.w3.org/2000/svg" role="img">
+<rect width="560" height="408" rx="10" fill="#0a0f22" stroke="#1a2340" stroke-width="1"/>
 <text x="22" y="30" fill="#d4a24c" font-family="-apple-system,Segoe UI,sans-serif" font-size="16" font-weight="700" letter-spacing=".02em">Languages</text>
-<text x="22" y="50" fill="#9da3b8" font-family="-apple-system,Segoe UI,sans-serif" font-size="11">across 38 repositories · public + private</text>
+<text x="22" y="50" fill="#9da3b8" font-family="-apple-system,Segoe UI,sans-serif" font-size="11">across 40 repositories · public + private</text>
 <text x="22" y="76" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">Python</text>
-<text x="218" y="76" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">51.5%</text>
+<text x="218" y="76" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">49.3%</text>
 <rect x="228" y="66" width="240" height="10" rx="5" fill="#151e40"/>
-<rect x="228" y="66" width="123" height="10" rx="5" fill="#d4a24c"/>
-<text x="538" y="76" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">222.4K LOC</text>
+<rect x="228" y="66" width="118" height="10" rx="5" fill="#d4a24c"/>
+<text x="538" y="76" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">224.9K LOC</text>
 <text x="22" y="104" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">TypeScript</text>
-<text x="218" y="104" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">31.3%</text>
+<text x="218" y="104" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">29.7%</text>
 <rect x="228" y="94" width="240" height="10" rx="5" fill="#151e40"/>
-<rect x="228" y="94" width="75" height="10" rx="5" fill="#60a5fa"/>
+<rect x="228" y="94" width="71" height="10" rx="5" fill="#60a5fa"/>
 <text x="538" y="104" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">135.4K LOC</text>
 <text x="22" y="132" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">JavaScript</text>
-<text x="218" y="132" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">8.3%</text>
+<text x="218" y="132" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">7.9%</text>
 <rect x="228" y="122" width="240" height="10" rx="5" fill="#151e40"/>
-<rect x="228" y="122" width="19" height="10" rx="5" fill="#34d399"/>
-<text x="538" y="132" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">35.8K LOC</text>
+<rect x="228" y="122" width="18" height="10" rx="5" fill="#34d399"/>
+<text x="538" y="132" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">36.0K LOC</text>
 <text x="22" y="160" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">SQL</text>
-<text x="218" y="160" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">3.7%</text>
+<text x="218" y="160" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">3.5%</text>
 <rect x="228" y="150" width="240" height="10" rx="5" fill="#151e40"/>
 <rect x="228" y="150" width="8" height="10" rx="5" fill="#7a84a0"/>
 <text x="538" y="160" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">16.1K LOC</text>
@@ -31,11 +31,31 @@
 <text x="218" y="216" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">1.4%</text>
 <rect x="228" y="206" width="240" height="10" rx="5" fill="#151e40"/>
 <rect x="228" y="206" width="3" height="10" rx="5" fill="#e06b4e"/>
-<text x="538" y="216" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">6.2K LOC</text>
-<text x="22" y="244" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">Shell</text>
-<text x="218" y="244" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">1.4%</text>
+<text x="538" y="216" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">6.3K LOC</text>
+<text x="22" y="244" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">C</text>
+<text x="218" y="244" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">1.3%</text>
 <rect x="228" y="234" width="240" height="10" rx="5" fill="#151e40"/>
-<rect x="228" y="234" width="3" height="10" rx="5" fill="#a78bfa"/>
-<text x="538" y="244" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">5.9K LOC</text>
-<text x="22" y="282" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10" letter-spacing=".04em">% by lines of code · 23.9 MB · 431.8K LOC · updated 2026-06-11</text>
+<rect x="228" y="234" width="3" height="10" rx="5" fill="#c7a6e8"/>
+<text x="538" y="244" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">6.1K LOC</text>
+<text x="22" y="272" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">Shell</text>
+<text x="218" y="272" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">1.3%</text>
+<rect x="228" y="262" width="240" height="10" rx="5" fill="#151e40"/>
+<rect x="228" y="262" width="3" height="10" rx="5" fill="#a78bfa"/>
+<text x="538" y="272" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">6.1K LOC</text>
+<text x="22" y="300" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">C++</text>
+<text x="218" y="300" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">1.0%</text>
+<rect x="228" y="290" width="240" height="10" rx="5" fill="#151e40"/>
+<rect x="228" y="290" width="2" height="10" rx="5" fill="#d28b8b"/>
+<text x="538" y="300" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">4.5K LOC</text>
+<text x="22" y="328" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">Go</text>
+<text x="218" y="328" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">0.7%</text>
+<rect x="228" y="318" width="240" height="10" rx="5" fill="#151e40"/>
+<rect x="228" y="318" width="2" height="10" rx="5" fill="#8dd0e0"/>
+<text x="538" y="328" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">3.0K LOC</text>
+<text x="22" y="356" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">PowerShell</text>
+<text x="218" y="356" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">0.6%</text>
+<rect x="228" y="346" width="240" height="10" rx="5" fill="#151e40"/>
+<rect x="228" y="346" width="2" height="10" rx="5" fill="#7a84a0"/>
+<text x="538" y="356" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">2.6K LOC</text>
+<text x="22" y="394" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="10" letter-spacing=".04em">% by lines of code · 27.4 MB · 456.1K LOC · updated 2026-06-12</text>
 </svg>
