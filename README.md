@@ -107,11 +107,11 @@ Human-mimicry by design. Always safe-mode. Full jitter. Never 24/7. Built on the
 Public pull requests to repositories I don't own — auto-refreshed daily.
 
 <!-- contributions:start -->
-**7 merged · 7 in review · 2 closed** across **7** external project(s).
+**7 merged · 8 in review · 2 closed** across **7** external project(s).
 
 ### Projects with accepted contributions
 
-- **[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)** (12.5K ⭐) — _Community curated list of templates for the nuclei engine to find security vulnerabilities._<br>&nbsp;&nbsp;✅ 5 merged · 🟡 2 in review · ⚪ 1 closed · merged diff **+112 / −66**
+- **[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)** (12.5K ⭐) — _Community curated list of templates for the nuclei engine to find security vulnerabilities._<br>&nbsp;&nbsp;✅ 5 merged · 🟡 3 in review · ⚪ 1 closed · merged diff **+112 / −66**
 - **[GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering)** (304 ⭐) — _Open-source GRC toolkit from the GRC Engineering Club. Claude Code plugins for evidence collection, SCF crosswalks, multi-framework gap reports, OSCAL workflows._<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 1 closed · merged diff **+1,698 / −7**
 - **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)** (44.5K ⭐) — _Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production._<br>&nbsp;&nbsp;🟡 1 in review
 - **[redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team)** (12.1K ⭐) — _Small and highly portable detection tests based on MITRE's ATT&CK._<br>&nbsp;&nbsp;🟡 1 in review
@@ -132,6 +132,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 304 | [#72](https://github.com/GRCEngClub/claude-grc-engineering/pull/72) feat(frameworks): Reference-depth India DPDPA plugin (ind-dpdpa) | +1,425 / −0 | ✅ Merged |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 304 | [#71](https://github.com/GRCEngClub/claude-grc-engineering/pull/71) ci(plugins): validate manifests against JSON Schema on every PR | +273 / −7 | ✅ Merged |
 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 44.5K | [#322](https://github.com/KeygraphHQ/shannon/pull/322) Security hardening, CLI bug fixes, and SARIF report output | +1,677 / −40 | 🟡 In review |
+| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.5K | [#16386](https://github.com/projectdiscovery/nuclei-templates/pull/16386) add: Qdrant vector database - unauthenticated collections exposure | +55 / −0 | 🟡 In review |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.5K | [#16385](https://github.com/projectdiscovery/nuclei-templates/pull/16385) dns: add internal IP address disclosure in DNS A records | +42 / −0 | 🟡 In review |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.5K | [#16051](https://github.com/projectdiscovery/nuclei-templates/pull/16051) fix(CVE-2025-58360): switch GeoServer XXE detection to OAST (FN on … | +15 / −8 | 🟡 In review |
 | [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | 12.1K | [#3359](https://github.com/redcanaryco/atomic-red-team/pull/3359) Add T1213.005 - Data from Information Repositories: Messaging Appli… | +187 / −0 | 🟡 In review |
