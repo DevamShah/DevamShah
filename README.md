@@ -140,7 +140,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules)** (515 ⭐) — _Semgrep queries developed by Trail of Bits._<br>&nbsp;&nbsp;🟡 1 in review
 - **[sigstore/model-transparency](https://github.com/sigstore/model-transparency)** (237 ⭐) — _Supply chain security for ML_<br>&nbsp;&nbsp;🟡 1 in review
 - **[t0sche/cvss-bt](https://github.com/t0sche/cvss-bt)** (224 ⭐) — _Enriching the NVD CVSS scores to include Temporal & Threat Metrics_<br>&nbsp;&nbsp;🟡 1 in review
-- **[falcosecurity/rules](https://github.com/falcosecurity/rules)** (177 ⭐) — _Falco rule repository_<br>&nbsp;&nbsp;🟡 1 in review
+- **[falcosecurity/rules](https://github.com/falcosecurity/rules)** (178 ⭐) — _Falco rule repository_<br>&nbsp;&nbsp;🟡 1 in review
 - **[kubescape/regolibrary](https://github.com/kubescape/regolibrary)** (131 ⭐) — _The regolibrary package contains the controls Kubescape uses for detecting misconfigurations in Kubernetes manifests._<br>&nbsp;&nbsp;🟡 1 in review
 
 <details>
@@ -193,7 +193,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [sigstore/model-transparency](https://github.com/sigstore/model-transparency) | 237 | [#642](https://github.com/sigstore/model-transparency/pull/642) feat: Add in-memory signing API returning the Sigstore bundle as bytes | +130 / −4 | 🟡 In review |
 | [t0sche/cvss-bt](https://github.com/t0sche/cvss-bt) | 224 | [#46](https://github.com/t0sche/cvss-bt/pull/46) feat: add exploit_maturity_source column for auditable E-value prov… | +158 / −1 | 🟡 In review |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 210 | [#110](https://github.com/ReversecLabs/spikee/pull/110) feat(judges): add secret_leak judge for credential/PII exfiltration… | +324 / −0 | 🟡 In review |
-| [falcosecurity/rules](https://github.com/falcosecurity/rules) | 177 | [#373](https://github.com/falcosecurity/rules/pull/373) new(rules): detect GPU/accelerator cryptojacking and device access … | +81 / −0 | 🟡 In review |
+| [falcosecurity/rules](https://github.com/falcosecurity/rules) | 178 | [#373](https://github.com/falcosecurity/rules/pull/373) new(rules): detect GPU/accelerator cryptojacking and device access … | +81 / −0 | 🟡 In review |
 | [kubescape/regolibrary](https://github.com/kubescape/regolibrary) | 131 | [#753](https://github.com/kubescape/regolibrary/pull/753) feat(C-0021): cover AI/ML inference and MLOps interfaces in sensiti… | +96 / −3 | 🟡 In review |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.6K | [#16054](https://github.com/projectdiscovery/nuclei-templates/pull/16054) add: Langflow unauthenticated flow API exposure detection | +80 / −0 | ⚪ Closed |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 316 | [#70](https://github.com/GRCEngClub/claude-grc-engineering/pull/70) fix(plugins): use object form for plugin.json author field | +7 / −7 | ⚪ Closed |
