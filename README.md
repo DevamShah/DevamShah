@@ -18,7 +18,7 @@
 <br><br>
 
 <!-- merged-badge:start -->
-<img src="https://img.shields.io/badge/OSS_Merged_PRs-17-d4a24c?style=for-the-badge&logo=github&logoColor=d4a24c&labelColor=0a0f22">
+<img src="https://img.shields.io/badge/OSS_Merged_PRs-18-d4a24c?style=for-the-badge&logo=github&logoColor=d4a24c&labelColor=0a0f22">
 <img src="https://img.shields.io/badge/Across-11_security_projects-0a0f22?style=for-the-badge&labelColor=0a0f22">
 <!-- merged-badge:end -->
 
@@ -107,11 +107,11 @@ Human-mimicry by design. Always safe-mode. Full jitter. Never 24/7. Built on the
 Public pull requests to repositories I don't own — auto-refreshed daily.
 
 <!-- contributions:start -->
-**17 merged · 30 in review · 2 closed** across **31** external project(s).
+**18 merged · 29 in review · 2 closed** across **31** external project(s).
 
 ### Projects with accepted contributions
 
-- **[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)** (12.6K ⭐) — _Community curated list of templates for the nuclei engine to find security vulnerabilities._<br>&nbsp;&nbsp;✅ 5 merged · 🟡 3 in review · ⚪ 1 closed · merged diff **+112 / −66**
+- **[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)** (12.6K ⭐) — _Community curated list of templates for the nuclei engine to find security vulnerabilities._<br>&nbsp;&nbsp;✅ 6 merged · 🟡 2 in review · ⚪ 1 closed · merged diff **+154 / −66**
 - **[GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering)** (319 ⭐) — _Open-source GRC toolkit from the GRC Engineering Club. Claude Code plugins for evidence collection, SCF crosswalks, multi-framework gap reports, OSCAL workflows._<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 1 closed · merged diff **+1,698 / −7**
 - **[ReversecLabs/spikee](https://github.com/ReversecLabs/spikee)** (212 ⭐) — _Simple Prompt Injection Kit for Evaluation and Exploitation_<br>&nbsp;&nbsp;✅ 2 merged · 🟡 1 in review · merged diff **+199 / −2**
 - **[redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team)** (12.1K ⭐) — _Small and highly portable detection tests based on MITRE's ATT&CK._<br>&nbsp;&nbsp;✅ 1 merged · 🟡 1 in review · merged diff **+111 / −0**
@@ -150,6 +150,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 |---|---:|---|---:|---|
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.6K | [#16053](https://github.com/projectdiscovery/nuclei-templates/pull/16053) fix(tomcat-default-login): order payloads to dodge LockOutRealm (FN) | +51 / −55 | ✅ Merged |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.6K | [#16055](https://github.com/projectdiscovery/nuclei-templates/pull/16055) add: LiteLLM proxy unauthenticated /model/info exposure | +51 / −0 | ✅ Merged |
+| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.6K | [#16385](https://github.com/projectdiscovery/nuclei-templates/pull/16385) dns: add internal IP address disclosure in DNS A records | +42 / −0 | ✅ Merged |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.6K | [#16056](https://github.com/projectdiscovery/nuclei-templates/pull/16056) add: ChromaDB unauthenticated collections API exposure | +9 / −3 | ✅ Merged |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.6K | [#16050](https://github.com/projectdiscovery/nuclei-templates/pull/16050) fix: drop clear-site-data matcher from http-missing-security-header… | +0 / −7 | ✅ Merged |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.6K | [#16052](https://github.com/projectdiscovery/nuclei-templates/pull/16052) fix(CVE-2021-40438): support custom interactsh server hostnames (FN) | +1 / −1 | ✅ Merged |
@@ -170,7 +171,6 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27.9K | [#2177](https://github.com/gitleaks/gitleaks/pull/2177) feat(rules): add Pinecone and LangSmith API key detection rules | +89 / −0 | 🟡 In review |
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 27.9K | [#2178](https://github.com/gitleaks/gitleaks/pull/2178) feat(rules): add Anthropic OAuth refresh token rule (sk-ant-ort01-) | +36 / −0 | 🟡 In review |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.6K | [#16386](https://github.com/projectdiscovery/nuclei-templates/pull/16386) add: Qdrant vector database - unauthenticated collections exposure | +48 / −0 | 🟡 In review |
-| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.6K | [#16385](https://github.com/projectdiscovery/nuclei-templates/pull/16385) dns: add internal IP address disclosure in DNS A records | +42 / −0 | 🟡 In review |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.6K | [#16051](https://github.com/projectdiscovery/nuclei-templates/pull/16051) fix(CVE-2025-58360): switch GeoServer XXE detection to OAST (FN on … | +15 / −8 | 🟡 In review |
 | [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | 12.1K | [#3359](https://github.com/redcanaryco/atomic-red-team/pull/3359) Add T1213.005 - Data from Information Repositories: Messaging Appli… | +187 / −0 | 🟡 In review |
 | [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot) | 10.0K | [#3235](https://github.com/blacklanternsecurity/bbot/pull/3235) excavate: add AIApplicationExtractor for LLM endpoints, SDKs, and l… | +202 / −0 | 🟡 In review |
