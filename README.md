@@ -131,7 +131,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[ossf/scorecard](https://github.com/ossf/scorecard)** (5.6K ⭐) — _OpenSSF Scorecard - Security health metrics for Open Source_<br>&nbsp;&nbsp;🟡 1 in review
 - **[RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu)** (5.3K ⭐) — _The AWS exploitation framework, designed for testing the security of Amazon Web Services environments._<br>&nbsp;&nbsp;🟡 1 in review
 - **[DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team)** (2.4K ⭐) — _:cloud: :zap: Granular, Actionable Adversary Emulation for the Cloud_<br>&nbsp;&nbsp;🟡 1 in review
-- **[confident-ai/deepteam](https://github.com/confident-ai/deepteam)** (1.9K ⭐) — _DeepTeam is a framework to red team LLMs and AI agents._<br>&nbsp;&nbsp;🟡 1 in review
+- **[confident-ai/deepteam](https://github.com/confident-ai/deepteam)** (2.0K ⭐) — _DeepTeam is a framework to red team LLMs and AI agents._<br>&nbsp;&nbsp;🟡 1 in review
 - **[stacklok/toolhive](https://github.com/stacklok/toolhive)** (1.9K ⭐) — _ToolHive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers._<br>&nbsp;&nbsp;🟡 1 in review
 - **[utkusen/promptmap](https://github.com/utkusen/promptmap)** (1.2K ⭐) — _a security scanner for custom LLM applications_<br>&nbsp;&nbsp;🟡 1 in review
 - **[safedep/vet](https://github.com/safedep/vet)** (1.1K ⭐) — _Protect against malicious open source packages 🤖_<br>&nbsp;&nbsp;🟡 1 in review
@@ -182,7 +182,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 4.1K | [#427](https://github.com/Tencent/AI-Infra-Guard/pull/427) feat(eval): add agentic-tool-misuse evaluation dataset | +384 / −0 | 🟡 In review |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 4.1K | [#429](https://github.com/Tencent/AI-Infra-Guard/pull/429) feat(agent-scan): add memory/RAG poisoning detection skill | +177 / −0 | 🟡 In review |
 | [DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team) | 2.4K | [#886](https://github.com/DataDog/stratus-red-team/pull/886) Add MITRE ATLAS as a first-class framework mapping (Cost Harvesting… | +27 / −1 | 🟡 In review |
-| [confident-ai/deepteam](https://github.com/confident-ai/deepteam) | 1.9K | [#236](https://github.com/confident-ai/deepteam/pull/236) feat(attacks): add Caesar, Morse, hex, zero-width & homoglyph encod… | +859 / −1 | 🟡 In review |
+| [confident-ai/deepteam](https://github.com/confident-ai/deepteam) | 2.0K | [#236](https://github.com/confident-ai/deepteam/pull/236) feat(attacks): add Caesar, Morse, hex, zero-width & homoglyph encod… | +859 / −1 | 🟡 In review |
 | [stacklok/toolhive](https://github.com/stacklok/toolhive) | 1.9K | [#5588](https://github.com/stacklok/toolhive/pull/5588) Add CORS support to the transparent MCP proxy | +665 / −4 | 🟡 In review |
 | [msoedov/agentic_security](https://github.com/msoedov/agentic_security) | 1.9K | [#320](https://github.com/msoedov/agentic_security/pull/320) fix: wildcard CORS + credentials spec violation, path-traversal gua… | +229 / −3 | 🟡 In review |
 | [utkusen/promptmap](https://github.com/utkusen/promptmap) | 1.2K | [#10](https://github.com/utkusen/promptmap/pull/10) feat(rules): add indirect_injection category (12 rules) | +240 / −3 | 🟡 In review |
