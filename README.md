@@ -107,19 +107,19 @@ Human-mimicry by design. Always safe-mode. Full jitter. Never 24/7. Built on the
 Public pull requests to repositories I don't own — auto-refreshed daily.
 
 <!-- contributions:start -->
-**18 merged · 28 in review · 3 closed** across **31** external project(s).
+**18 merged · 27 in review · 4 closed** across **31** external project(s).
 
 ### Projects with accepted contributions
 
 - **[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)** (12.6K ⭐) — _Community curated list of templates for the nuclei engine to find security vulnerabilities._<br>&nbsp;&nbsp;✅ 6 merged · 🟡 2 in review · ⚪ 1 closed · merged diff **+154 / −66**
-- **[GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering)** (333 ⭐) — _Open-source GRC toolkit from the GRC Engineering Club. Claude Code plugins for evidence collection, SCF crosswalks, multi-framework gap reports, OSCAL workflows._<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 1 closed · merged diff **+1,698 / −7**
+- **[GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering)** (334 ⭐) — _Open-source GRC toolkit from the GRC Engineering Club. Claude Code plugins for evidence collection, SCF crosswalks, multi-framework gap reports, OSCAL workflows._<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 1 closed · merged diff **+1,698 / −7**
 - **[ReversecLabs/spikee](https://github.com/ReversecLabs/spikee)** (221 ⭐) — _Simple Prompt Injection Kit for Evaluation and Exploitation_<br>&nbsp;&nbsp;✅ 2 merged · 🟡 1 in review · merged diff **+199 / −2**
 - **[redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team)** (12.2K ⭐) — _Small and highly portable detection tests based on MITRE's ATT&CK._<br>&nbsp;&nbsp;✅ 1 merged · 🟡 1 in review · merged diff **+111 / −0**
 - **[NVIDIA/garak](https://github.com/NVIDIA/garak)** (8.4K ⭐) — _the LLM vulnerability scanner_<br>&nbsp;&nbsp;✅ 1 merged · 🟡 1 in review · merged diff **+107 / −0**
 - **[intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl)** (4.6K ⭐) — _IntelOwl: manage your Threat Intelligence at scale_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+376 / −0**
 - **[Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)** (4.1K ⭐) — _A full-stack AI Red Teaming platform securing AI ecosystems via OpenClaw Security Scan, Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation._<br>&nbsp;&nbsp;✅ 1 merged · 🟡 2 in review · merged diff **+267 / −0**
 - **[msoedov/agentic_security](https://github.com/msoedov/agentic_security)** (1.9K ⭐) — _Agentic LLM Vulnerability Scanner / AI red teaming kit 🧪_<br>&nbsp;&nbsp;✅ 1 merged · 🟡 1 in review · merged diff **+491 / −4**
-- **[vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup)** (536 ⭐) — _Vulnerability-Lookup facilitates quick correlation of vulnerabilities from various sources, independent of vulnerability IDs, and streamlines the management of Coordinated Vulnerability Disclosure (CVD)._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+50 / −0**
+- **[vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup)** (537 ⭐) — _Vulnerability-Lookup facilitates quick correlation of vulnerabilities from various sources, independent of vulnerability IDs, and streamlines the management of Coordinated Vulnerability Disclosure (CVD)._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+50 / −0**
 - **[sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules)** (368 ⭐) — _Sublime rules for email attack detection, prevention, and threat hunting._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+1 / −1**
 - **[Yamato-Security/hayabusa-rules](https://github.com/Yamato-Security/hayabusa-rules)** (222 ⭐) — _Curated Windows event log Sigma rules used in Hayabusa and Velociraptor._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+407 / −0**
 - **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)** (45.6K ⭐) — _Shannon is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production._<br>&nbsp;&nbsp;🟡 1 in review
@@ -127,7 +127,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** (28.1K ⭐) — _Find secrets with Gitleaks 🔑_<br>&nbsp;&nbsp;🟡 2 in review
 - **[blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot)** (10.1K ⭐) — _The recursive internet scanner for hackers. 🧡_<br>&nbsp;&nbsp;🟡 1 in review
 - **[PyCQA/bandit](https://github.com/PyCQA/bandit)** (8.2K ⭐) — _Bandit is a tool designed to find common security issues in Python code._<br>&nbsp;&nbsp;🟡 1 in review
-- **[Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)** (5.7K ⭐) — _The Network Execution Tool_<br>&nbsp;&nbsp;🟡 1 in review
+- **[Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)** (5.7K ⭐) — _The Network Execution Tool_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[ossf/scorecard](https://github.com/ossf/scorecard)** (5.6K ⭐) — _OpenSSF Scorecard - Security health metrics for Open Source_<br>&nbsp;&nbsp;🟡 1 in review
 - **[RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu)** (5.3K ⭐) — _The AWS exploitation framework, designed for testing the security of Amazon Web Services environments._<br>&nbsp;&nbsp;🟡 1 in review
 - **[DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team)** (2.4K ⭐) — _:cloud: :zap: Granular, Actionable Adversary Emulation for the Cloud_<br>&nbsp;&nbsp;⚪ 1 closed
@@ -139,7 +139,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[ossf/malicious-packages](https://github.com/ossf/malicious-packages)** (564 ⭐) — _A repository of reports of malicious packages identified in Open Source package repositories, consumable via the Open Source Vulnerability (OSV) format._<br>&nbsp;&nbsp;🟡 1 in review
 - **[trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules)** (515 ⭐) — _Semgrep queries developed by Trail of Bits._<br>&nbsp;&nbsp;🟡 1 in review
 - **[sigstore/model-transparency](https://github.com/sigstore/model-transparency)** (238 ⭐) — _Supply chain security for ML_<br>&nbsp;&nbsp;🟡 1 in review
-- **[t0sche/cvss-bt](https://github.com/t0sche/cvss-bt)** (225 ⭐) — _Enriching the NVD CVSS scores to include Temporal & Threat Metrics_<br>&nbsp;&nbsp;🟡 1 in review
+- **[t0sche/cvss-bt](https://github.com/t0sche/cvss-bt)** (226 ⭐) — _Enriching the NVD CVSS scores to include Temporal & Threat Metrics_<br>&nbsp;&nbsp;🟡 1 in review
 - **[falcosecurity/rules](https://github.com/falcosecurity/rules)** (180 ⭐) — _Falco rule repository_<br>&nbsp;&nbsp;🟡 1 in review
 - **[kubescape/regolibrary](https://github.com/kubescape/regolibrary)** (131 ⭐) — _The regolibrary package contains the controls Kubescape uses for detecting misconfigurations in Kubernetes manifests._<br>&nbsp;&nbsp;🟡 1 in review
 
@@ -159,10 +159,10 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl) | 4.6K | [#3802](https://github.com/intelowlproject/IntelOwl/pull/3802) Add CVE_Exploitability analyzer (CISA KEV + FIRST EPSS) for CVE obs… | +376 / −0 | ✅ Merged |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 4.1K | [#424](https://github.com/Tencent/AI-Infra-Guard/pull/424) feat(data): add 6 llama.cpp CVE rules (RPC RCE + GGUF/tokenizer mem… | +267 / −0 | ✅ Merged |
 | [msoedov/agentic_security](https://github.com/msoedov/agentic_security) | 1.9K | [#321](https://github.com/msoedov/agentic_security/pull/321) feat: config-pluggable refusal classifiers and leak detectors | +491 / −4 | ✅ Merged |
-| [vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup) | 536 | [#431](https://github.com/vulnerability-lookup/vulnerability-lookup/pull/431) new: [perf] add pg_trgm GIN indexes for sighting source/vulnerabili… | +50 / −0 | ✅ Merged |
+| [vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup) | 537 | [#431](https://github.com/vulnerability-lookup/vulnerability-lookup/pull/431) new: [perf] add pg_trgm GIN indexes for sighting source/vulnerabili… | +50 / −0 | ✅ Merged |
 | [sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules) | 368 | [#4655](https://github.com/sublime-security/sublime-rules/pull/4655) fix: replace deprecated $alexa_1m with $tranco_1m in link_cuttly di… | +1 / −1 | ✅ Merged |
-| [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 333 | [#72](https://github.com/GRCEngClub/claude-grc-engineering/pull/72) feat(frameworks): Reference-depth India DPDPA plugin (ind-dpdpa) | +1,425 / −0 | ✅ Merged |
-| [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 333 | [#71](https://github.com/GRCEngClub/claude-grc-engineering/pull/71) ci(plugins): validate manifests against JSON Schema on every PR | +273 / −7 | ✅ Merged |
+| [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 334 | [#72](https://github.com/GRCEngClub/claude-grc-engineering/pull/72) feat(frameworks): Reference-depth India DPDPA plugin (ind-dpdpa) | +1,425 / −0 | ✅ Merged |
+| [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 334 | [#71](https://github.com/GRCEngClub/claude-grc-engineering/pull/71) ci(plugins): validate manifests against JSON Schema on every PR | +273 / −7 | ✅ Merged |
 | [Yamato-Security/hayabusa-rules](https://github.com/Yamato-Security/hayabusa-rules) | 222 | [#1036](https://github.com/Yamato-Security/hayabusa-rules/pull/1036) ci: block merge when a rule id (UUID) is used by more than one rule… | +407 / −0 | ✅ Merged |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 221 | [#109](https://github.com/ReversecLabs/spikee/pull/109) feat: add homoglyph encoding plugin (Unicode confusables) | +197 / −0 | ✅ Merged |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 221 | [#111](https://github.com/ReversecLabs/spikee/pull/111) docs: fix GOAT citation and note workspace-only status in 02_builti… | +2 / −2 | ✅ Merged |
@@ -176,7 +176,6 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot) | 10.1K | [#3235](https://github.com/blacklanternsecurity/bbot/pull/3235) excavate: add AIApplicationExtractor for LLM endpoints, SDKs, and l… | +202 / −0 | 🟡 In review |
 | [NVIDIA/garak](https://github.com/NVIDIA/garak) | 8.4K | [#1858](https://github.com/NVIDIA/garak/pull/1858) probes: add many-shot jailbreaking probe | +195 / −0 | 🟡 In review |
 | [PyCQA/bandit](https://github.com/PyCQA/bandit) | 8.2K | [#1441](https://github.com/PyCQA/bandit/pull/1441) fix(B614): suppress false positive on non-literal weights_only; add… | +44 / −0 | 🟡 In review |
-| [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | 5.7K | [#1289](https://github.com/Pennyw0rth/NetExec/pull/1289) fix(mssql): print a clean error for --rid-brute without authentication | +3 / −0 | 🟡 In review |
 | [ossf/scorecard](https://github.com/ossf/scorecard) | 5.6K | [#5103](https://github.com/ossf/scorecard/pull/5103) checks/sast: detect Semgrep, Bandit, and gosec SAST workflows | +162 / −0 | 🟡 In review |
 | [RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu) | 5.3K | [#534](https://github.com/RhinoSecurityLabs/pacu/pull/534) fix(sns__enum): paginate list_topics and list_subscriptions_by_topi… | +247 / −7 | 🟡 In review |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 4.1K | [#427](https://github.com/Tencent/AI-Infra-Guard/pull/427) feat(eval): add agentic-tool-misuse evaluation dataset | +384 / −0 | 🟡 In review |
@@ -190,13 +189,14 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [ossf/malicious-packages](https://github.com/ossf/malicious-packages) | 564 | [#1329](https://github.com/ossf/malicious-packages/pull/1329) docs: add a consumer guide for using the reports | +235 / −0 | 🟡 In review |
 | [trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules) | 515 | [#83](https://github.com/trailofbits/semgrep-rules/pull/83) python: add hf-trust-remote-code rule (HuggingFace trust_remote_cod… | +103 / −0 | 🟡 In review |
 | [sigstore/model-transparency](https://github.com/sigstore/model-transparency) | 238 | [#642](https://github.com/sigstore/model-transparency/pull/642) feat: Add in-memory signing API returning the Sigstore bundle as bytes | +130 / −4 | 🟡 In review |
-| [t0sche/cvss-bt](https://github.com/t0sche/cvss-bt) | 225 | [#46](https://github.com/t0sche/cvss-bt/pull/46) feat: add exploit_maturity_source column for auditable E-value prov… | +158 / −1 | 🟡 In review |
+| [t0sche/cvss-bt](https://github.com/t0sche/cvss-bt) | 226 | [#46](https://github.com/t0sche/cvss-bt/pull/46) feat: add exploit_maturity_source column for auditable E-value prov… | +158 / −1 | 🟡 In review |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 221 | [#110](https://github.com/ReversecLabs/spikee/pull/110) feat(judges): add secret_leak judge for credential/PII exfiltration… | +324 / −0 | 🟡 In review |
 | [falcosecurity/rules](https://github.com/falcosecurity/rules) | 180 | [#373](https://github.com/falcosecurity/rules/pull/373) new(rules): detect GPU/accelerator cryptojacking and device access … | +81 / −0 | 🟡 In review |
 | [kubescape/regolibrary](https://github.com/kubescape/regolibrary) | 131 | [#753](https://github.com/kubescape/regolibrary/pull/753) feat(C-0021): cover AI/ML inference and MLOps interfaces in sensiti… | +96 / −3 | 🟡 In review |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.6K | [#16054](https://github.com/projectdiscovery/nuclei-templates/pull/16054) add: Langflow unauthenticated flow API exposure detection | +80 / −0 | ⚪ Closed |
+| [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | 5.7K | [#1289](https://github.com/Pennyw0rth/NetExec/pull/1289) fix(mssql): print a clean error for --rid-brute without authentication | +3 / −0 | ⚪ Closed |
 | [DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team) | 2.4K | [#886](https://github.com/DataDog/stratus-red-team/pull/886) Add MITRE ATLAS as a first-class framework mapping (Cost Harvesting… | +27 / −1 | ⚪ Closed |
-| [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 333 | [#70](https://github.com/GRCEngClub/claude-grc-engineering/pull/70) fix(plugins): use object form for plugin.json author field | +7 / −7 | ⚪ Closed |
+| [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 334 | [#70](https://github.com/GRCEngClub/claude-grc-engineering/pull/70) fix(plugins): use object form for plugin.json author field | +7 / −7 | ⚪ Closed |
 
 </details>
 <!-- contributions:end -->
