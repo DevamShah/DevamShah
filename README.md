@@ -107,7 +107,7 @@ Human-mimicry by design. Always safe-mode. Full jitter. Never 24/7. Built on the
 Public pull requests to repositories I don't own — auto-refreshed daily.
 
 <!-- contributions:start -->
-**19 merged · 23 in review · 7 closed** across **31** external project(s).
+**19 merged · 22 in review · 8 closed** across **31** external project(s).
 
 ### Projects with accepted contributions
 
@@ -134,7 +134,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[confident-ai/deepteam](https://github.com/confident-ai/deepteam)** (2.3K ⭐) — _DeepTeam is a framework to red team LLMs and AI agents._<br>&nbsp;&nbsp;🟡 1 in review
 - **[stacklok/toolhive](https://github.com/stacklok/toolhive)** (2.0K ⭐) — _ToolHive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers._<br>&nbsp;&nbsp;⚪ 1 closed
 - **[utkusen/promptmap](https://github.com/utkusen/promptmap)** (1.2K ⭐) — _a security scanner for custom LLM applications_<br>&nbsp;&nbsp;🟡 1 in review
-- **[safedep/vet](https://github.com/safedep/vet)** (1.1K ⭐) — _Protect against malicious open source packages 🤖_<br>&nbsp;&nbsp;🟡 1 in review
+- **[safedep/vet](https://github.com/safedep/vet)** (1.1K ⭐) — _Protect against malicious open source packages 🤖_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[trailofbits/fickling](https://github.com/trailofbits/fickling)** (652 ⭐) — _A Python pickling decompiler and static analyzer_<br>&nbsp;&nbsp;🟡 1 in review
 - **[ossf/malicious-packages](https://github.com/ossf/malicious-packages)** (575 ⭐) — _A repository of reports of malicious packages identified in Open Source package repositories, consumable via the Open Source Vulnerability (OSV) format._<br>&nbsp;&nbsp;🟡 1 in review
 - **[trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules)** (513 ⭐) — _Semgrep queries developed by Trail of Bits._<br>&nbsp;&nbsp;🟡 1 in review
@@ -181,7 +181,6 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [confident-ai/deepteam](https://github.com/confident-ai/deepteam) | 2.3K | [#236](https://github.com/confident-ai/deepteam/pull/236) feat(attacks): add Caesar, Morse, hex, zero-width & homoglyph encod… | +859 / −1 | 🟡 In review |
 | [msoedov/agentic_security](https://github.com/msoedov/agentic_security) | 1.9K | [#320](https://github.com/msoedov/agentic_security/pull/320) fix: wildcard CORS + credentials spec violation, path-traversal gua… | +229 / −3 | 🟡 In review |
 | [utkusen/promptmap](https://github.com/utkusen/promptmap) | 1.2K | [#10](https://github.com/utkusen/promptmap/pull/10) feat(rules): add indirect_injection category (12 rules) | +240 / −3 | 🟡 In review |
-| [safedep/vet](https://github.com/safedep/vet) | 1.1K | [#745](https://github.com/safedep/vet/pull/745) feat: add pre-commit hook for local dependency scanning (closes #443) | +116 / −0 | 🟡 In review |
 | [trailofbits/fickling](https://github.com/trailofbits/fickling) | 652 | [#283](https://github.com/trailofbits/fickling/pull/283) Add recursive directory and glob scanning to the CLI for bulk pickl… | +330 / −1 | 🟡 In review |
 | [ossf/malicious-packages](https://github.com/ossf/malicious-packages) | 575 | [#1329](https://github.com/ossf/malicious-packages/pull/1329) docs: add a consumer guide for using the reports | +235 / −0 | 🟡 In review |
 | [trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules) | 513 | [#83](https://github.com/trailofbits/semgrep-rules/pull/83) python: add hf-trust-remote-code rule (HuggingFace trust_remote_cod… | +103 / −0 | 🟡 In review |
@@ -196,6 +195,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | 5.7K | [#1289](https://github.com/Pennyw0rth/NetExec/pull/1289) fix(mssql): print a clean error for --rid-brute without authentication | +3 / −0 | ⚪ Closed |
 | [DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team) | 2.4K | [#886](https://github.com/DataDog/stratus-red-team/pull/886) Add MITRE ATLAS as a first-class framework mapping (Cost Harvesting… | +27 / −1 | ⚪ Closed |
 | [stacklok/toolhive](https://github.com/stacklok/toolhive) | 2.0K | [#5588](https://github.com/stacklok/toolhive/pull/5588) Add CORS support to the transparent MCP proxy | +665 / −4 | ⚪ Closed |
+| [safedep/vet](https://github.com/safedep/vet) | 1.1K | [#745](https://github.com/safedep/vet/pull/745) feat: add pre-commit hook for local dependency scanning (closes #443) | +116 / −0 | ⚪ Closed |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 349 | [#70](https://github.com/GRCEngClub/claude-grc-engineering/pull/70) fix(plugins): use object form for plugin.json author field | +7 / −7 | ⚪ Closed |
 
 </details>
