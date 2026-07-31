@@ -18,8 +18,8 @@
 <br><br>
 
 <!-- merged-badge:start -->
-<img src="https://img.shields.io/badge/OSS_Merged_PRs-19-d4a24c?style=for-the-badge&logo=github&logoColor=d4a24c&labelColor=0a0f22">
-<img src="https://img.shields.io/badge/Across-11_security_projects-0a0f22?style=for-the-badge&labelColor=0a0f22">
+<img src="https://img.shields.io/badge/OSS_Merged_PRs-20-d4a24c?style=for-the-badge&logo=github&logoColor=d4a24c&labelColor=0a0f22">
+<img src="https://img.shields.io/badge/Across-12_security_projects-0a0f22?style=for-the-badge&labelColor=0a0f22">
 <!-- merged-badge:end -->
 
 </div>
@@ -107,7 +107,7 @@ Human-mimicry by design. Always safe-mode. Full jitter. Never 24/7. Built on the
 Public pull requests to repositories I don't own — auto-refreshed daily.
 
 <!-- contributions:start -->
-**19 merged · 20 in review · 10 closed** across **31** external project(s).
+**20 merged · 19 in review · 10 closed** across **31** external project(s).
 
 ### Projects with accepted contributions
 
@@ -122,6 +122,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup)** (553 ⭐) — _Vulnerability-Lookup facilitates quick correlation of vulnerabilities from various sources, independent of vulnerability IDs, and streamlines the management of Coordinated Vulnerability Disclosure (CVD)._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+50 / −0**
 - **[sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules)** (368 ⭐) — _Sublime rules for email attack detection, prevention, and threat hunting._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+1 / −1**
 - **[Yamato-Security/hayabusa-rules](https://github.com/Yamato-Security/hayabusa-rules)** (222 ⭐) — _Curated Windows event log Sigma rules used in Hayabusa and Velociraptor._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+407 / −0**
+- **[kubescape/regolibrary](https://github.com/kubescape/regolibrary)** (131 ⭐) — _The regolibrary package contains the controls Kubescape uses for detecting misconfigurations in Kubernetes manifests._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+96 / −3**
 - **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)** (46.3K ⭐) — _Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production._<br>&nbsp;&nbsp;🟡 1 in review
 - **[projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)** (30.1K ⭐) — _Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations._<br>&nbsp;&nbsp;🟡 1 in review
 - **[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** (28.4K ⭐) — _Find secrets with Gitleaks 🔑_<br>&nbsp;&nbsp;🟡 2 in review
@@ -141,7 +142,6 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[sigstore/model-transparency](https://github.com/sigstore/model-transparency)** (241 ⭐) — _Supply chain security for ML_<br>&nbsp;&nbsp;🟡 1 in review
 - **[t0sche/cvss-bt](https://github.com/t0sche/cvss-bt)** (226 ⭐) — _Enriching the NVD CVSS scores to include Temporal & Threat Metrics_<br>&nbsp;&nbsp;🟡 1 in review
 - **[falcosecurity/rules](https://github.com/falcosecurity/rules)** (181 ⭐) — _Falco rule repository_<br>&nbsp;&nbsp;🟡 1 in review
-- **[kubescape/regolibrary](https://github.com/kubescape/regolibrary)** (131 ⭐) — _The regolibrary package contains the controls Kubescape uses for detecting misconfigurations in Kubernetes manifests._<br>&nbsp;&nbsp;🟡 1 in review
 
 <details>
 <summary><b>All pull requests</b></summary>
@@ -167,6 +167,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 229 | [#109](https://github.com/ReversecLabs/spikee/pull/109) feat: add homoglyph encoding plugin (Unicode confusables) | +197 / −0 | ✅ Merged |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 229 | [#111](https://github.com/ReversecLabs/spikee/pull/111) docs: fix GOAT citation and note workspace-only status in 02_builti… | +2 / −2 | ✅ Merged |
 | [Yamato-Security/hayabusa-rules](https://github.com/Yamato-Security/hayabusa-rules) | 222 | [#1036](https://github.com/Yamato-Security/hayabusa-rules/pull/1036) ci: block merge when a rule id (UUID) is used by more than one rule… | +407 / −0 | ✅ Merged |
+| [kubescape/regolibrary](https://github.com/kubescape/regolibrary) | 131 | [#753](https://github.com/kubescape/regolibrary/pull/753) feat(C-0021): cover AI/ML inference and MLOps interfaces in sensiti… | +96 / −3 | ✅ Merged |
 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 46.3K | [#322](https://github.com/KeygraphHQ/shannon/pull/322) Security hardening, CLI bug fixes, and SARIF report output | +1,677 / −40 | 🟡 In review |
 | [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | 30.1K | [#7495](https://github.com/projectdiscovery/nuclei/pull/7495) feat(reporting): add CSV result exporter (-csv-export) | +294 / −0 | 🟡 In review |
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 28.4K | [#2177](https://github.com/gitleaks/gitleaks/pull/2177) feat(rules): add Pinecone and LangSmith API key detection rules | +89 / −0 | 🟡 In review |
@@ -186,7 +187,6 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 229 | [#110](https://github.com/ReversecLabs/spikee/pull/110) feat(judges): add secret_leak judge for credential/PII exfiltration… | +324 / −0 | 🟡 In review |
 | [t0sche/cvss-bt](https://github.com/t0sche/cvss-bt) | 226 | [#46](https://github.com/t0sche/cvss-bt/pull/46) feat: add exploit_maturity_source column for auditable E-value prov… | +158 / −1 | 🟡 In review |
 | [falcosecurity/rules](https://github.com/falcosecurity/rules) | 181 | [#373](https://github.com/falcosecurity/rules/pull/373) new(rules): detect GPU/accelerator cryptojacking and device access … | +81 / −0 | 🟡 In review |
-| [kubescape/regolibrary](https://github.com/kubescape/regolibrary) | 131 | [#753](https://github.com/kubescape/regolibrary/pull/753) feat(C-0021): cover AI/ML inference and MLOps interfaces in sensiti… | +96 / −3 | 🟡 In review |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.7K | [#16054](https://github.com/projectdiscovery/nuclei-templates/pull/16054) add: Langflow unauthenticated flow API exposure detection | +80 / −0 | ⚪ Closed |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.7K | [#16386](https://github.com/projectdiscovery/nuclei-templates/pull/16386) add: Qdrant vector database - unauthenticated collections exposure | +48 / −0 | ⚪ Closed |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.7K | [#16051](https://github.com/projectdiscovery/nuclei-templates/pull/16051) fix(CVE-2025-58360): switch GeoServer XXE detection to OAST (FN on … | +15 / −8 | ⚪ Closed |
