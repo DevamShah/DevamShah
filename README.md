@@ -18,7 +18,7 @@
 <br><br>
 
 <!-- merged-badge:start -->
-<img src="https://img.shields.io/badge/OSS_Merged_PRs-20-d4a24c?style=for-the-badge&logo=github&logoColor=d4a24c&labelColor=0a0f22">
+<img src="https://img.shields.io/badge/OSS_Merged_PRs-21-d4a24c?style=for-the-badge&logo=github&logoColor=d4a24c&labelColor=0a0f22">
 <img src="https://img.shields.io/badge/Across-12_security_projects-0a0f22?style=for-the-badge&labelColor=0a0f22">
 <!-- merged-badge:end -->
 
@@ -107,18 +107,18 @@ Human-mimicry by design. Always safe-mode. Full jitter. Never 24/7. Built on the
 Public pull requests to repositories I don't own — auto-refreshed daily.
 
 <!-- contributions:start -->
-**20 merged · 19 in review · 10 closed** across **31** external project(s).
+**21 merged · 18 in review · 10 closed** across **31** external project(s).
 
 ### Projects with accepted contributions
 
 - **[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)** (12.7K ⭐) — _Community curated list of templates for the nuclei engine to find security vulnerabilities._<br>&nbsp;&nbsp;✅ 6 merged · ⚪ 3 closed · merged diff **+154 / −66**
 - **[Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)** (4.3K ⭐) — _A full-stack AI Red Teaming platform securing AI ecosystems via OpenClaw Security Scan, Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation._<br>&nbsp;&nbsp;✅ 2 merged · 🟡 1 in review · merged diff **+651 / −0**
+- **[msoedov/agentic_security](https://github.com/msoedov/agentic_security)** (1.9K ⭐) — _Agentic LLM Vulnerability Scanner / AI red teaming kit 🧪_<br>&nbsp;&nbsp;✅ 2 merged · merged diff **+720 / −7**
 - **[GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering)** (357 ⭐) — _Open-source GRC toolkit from the GRC Engineering Club. Claude Code plugins for evidence collection, SCF crosswalks, multi-framework gap reports, OSCAL workflows._<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 1 closed · merged diff **+1,698 / −7**
 - **[ReversecLabs/spikee](https://github.com/ReversecLabs/spikee)** (229 ⭐) — _Simple Prompt Injection Kit for Evaluation and Exploitation_<br>&nbsp;&nbsp;✅ 2 merged · 🟡 1 in review · merged diff **+199 / −2**
 - **[redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team)** (12.3K ⭐) — _Small and highly portable detection tests based on MITRE's ATT&CK._<br>&nbsp;&nbsp;✅ 1 merged · 🟡 1 in review · merged diff **+111 / −0**
 - **[NVIDIA/garak](https://github.com/NVIDIA/garak)** (8.6K ⭐) — _the LLM vulnerability scanner_<br>&nbsp;&nbsp;✅ 1 merged · ⚪ 1 closed · merged diff **+107 / −0**
 - **[intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl)** (4.6K ⭐) — _IntelOwl: manage your Threat Intelligence at scale_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+376 / −0**
-- **[msoedov/agentic_security](https://github.com/msoedov/agentic_security)** (1.9K ⭐) — _Agentic LLM Vulnerability Scanner / AI red teaming kit 🧪_<br>&nbsp;&nbsp;✅ 1 merged · 🟡 1 in review · merged diff **+491 / −4**
 - **[vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup)** (553 ⭐) — _Vulnerability-Lookup facilitates quick correlation of vulnerabilities from various sources, independent of vulnerability IDs, and streamlines the management of Coordinated Vulnerability Disclosure (CVD)._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+50 / −0**
 - **[sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules)** (368 ⭐) — _Sublime rules for email attack detection, prevention, and threat hunting._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+1 / −1**
 - **[Yamato-Security/hayabusa-rules](https://github.com/Yamato-Security/hayabusa-rules)** (222 ⭐) — _Curated Windows event log Sigma rules used in Hayabusa and Velociraptor._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+407 / −0**
@@ -160,6 +160,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 4.3K | [#427](https://github.com/Tencent/AI-Infra-Guard/pull/427) feat(eval): add agentic-tool-misuse evaluation dataset | +384 / −0 | ✅ Merged |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 4.3K | [#424](https://github.com/Tencent/AI-Infra-Guard/pull/424) feat(data): add 6 llama.cpp CVE rules (RPC RCE + GGUF/tokenizer mem… | +267 / −0 | ✅ Merged |
 | [msoedov/agentic_security](https://github.com/msoedov/agentic_security) | 1.9K | [#321](https://github.com/msoedov/agentic_security/pull/321) feat: config-pluggable refusal classifiers and leak detectors | +491 / −4 | ✅ Merged |
+| [msoedov/agentic_security](https://github.com/msoedov/agentic_security) | 1.9K | [#320](https://github.com/msoedov/agentic_security/pull/320) fix: wildcard CORS + credentials spec violation, path-traversal gua… | +229 / −3 | ✅ Merged |
 | [vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup) | 553 | [#431](https://github.com/vulnerability-lookup/vulnerability-lookup/pull/431) new: [perf] add pg_trgm GIN indexes for sighting source/vulnerabili… | +50 / −0 | ✅ Merged |
 | [sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules) | 368 | [#4655](https://github.com/sublime-security/sublime-rules/pull/4655) fix: replace deprecated $alexa_1m with $tranco_1m in link_cuttly di… | +1 / −1 | ✅ Merged |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 357 | [#72](https://github.com/GRCEngClub/claude-grc-engineering/pull/72) feat(frameworks): Reference-depth India DPDPA plugin (ind-dpdpa) | +1,425 / −0 | ✅ Merged |
@@ -178,7 +179,6 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu) | 5.3K | [#534](https://github.com/RhinoSecurityLabs/pacu/pull/534) fix(sns__enum): paginate list_topics and list_subscriptions_by_topi… | +247 / −7 | 🟡 In review |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 4.3K | [#429](https://github.com/Tencent/AI-Infra-Guard/pull/429) feat(agent-scan): add memory/RAG poisoning detection skill | +177 / −0 | 🟡 In review |
 | [confident-ai/deepteam](https://github.com/confident-ai/deepteam) | 2.3K | [#236](https://github.com/confident-ai/deepteam/pull/236) feat(attacks): add Caesar, Morse, hex, zero-width & homoglyph encod… | +859 / −1 | 🟡 In review |
-| [msoedov/agentic_security](https://github.com/msoedov/agentic_security) | 1.9K | [#320](https://github.com/msoedov/agentic_security/pull/320) fix: wildcard CORS + credentials spec violation, path-traversal gua… | +229 / −3 | 🟡 In review |
 | [utkusen/promptmap](https://github.com/utkusen/promptmap) | 1.2K | [#10](https://github.com/utkusen/promptmap/pull/10) feat(rules): add indirect_injection category (12 rules) | +240 / −3 | 🟡 In review |
 | [trailofbits/fickling](https://github.com/trailofbits/fickling) | 654 | [#283](https://github.com/trailofbits/fickling/pull/283) Add recursive directory and glob scanning to the CLI for bulk pickl… | +330 / −1 | 🟡 In review |
 | [ossf/malicious-packages](https://github.com/ossf/malicious-packages) | 589 | [#1329](https://github.com/ossf/malicious-packages/pull/1329) docs: add a consumer guide for using the reports | +235 / −0 | 🟡 In review |
