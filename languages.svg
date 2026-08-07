@@ -11,7 +11,7 @@
 <text x="218" y="104" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">29.4%</text>
 <rect x="228" y="94" width="240" height="10" rx="5" fill="#151e40"/>
 <rect x="228" y="94" width="70" height="10" rx="5" fill="#8dd0e0"/>
-<text x="538" y="104" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">768.0K LOC</text>
+<text x="538" y="104" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">767.6K LOC</text>
 <text x="22" y="132" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">HTML</text>
 <text x="218" y="132" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">18.3%</text>
 <rect x="228" y="122" width="240" height="10" rx="5" fill="#151e40"/>
@@ -21,7 +21,7 @@
 <text x="218" y="160" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">8.5%</text>
 <rect x="228" y="150" width="240" height="10" rx="5" fill="#151e40"/>
 <rect x="228" y="150" width="20" height="10" rx="5" fill="#34d399"/>
-<text x="538" y="160" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">222.6K LOC</text>
+<text x="538" y="160" text-anchor="end" fill="#eab84e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" font-weight="600">222.3K LOC</text>
 <text x="22" y="188" fill="#e8e4df" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="500">TypeScript</text>
 <text x="218" y="188" text-anchor="end" fill="#9da3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">6.1%</text>
 <rect x="228" y="178" width="240" height="10" rx="5" fill="#151e40"/>
