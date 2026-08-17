@@ -112,7 +112,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 ### Projects with accepted contributions
 
 - **[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)** (12.8K ⭐) — _Community curated list of templates for the nuclei engine to find security vulnerabilities._<br>&nbsp;&nbsp;✅ 6 merged · ⚪ 3 closed · merged diff **+154 / −66**
-- **[Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)** (4.5K ⭐) — _A full-stack AI Red Teaming platform securing AI ecosystems via OpenClaw Security Scan, Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation._<br>&nbsp;&nbsp;✅ 2 merged · 🟡 1 in review · merged diff **+651 / −0**
+- **[Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)** (4.5K ⭐) — _A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation._<br>&nbsp;&nbsp;✅ 2 merged · 🟡 1 in review · merged diff **+651 / −0**
 - **[msoedov/agentic_security](https://github.com/msoedov/agentic_security)** (2.0K ⭐) — _Agentic LLM Vulnerability Scanner / AI red teaming kit 🧪_<br>&nbsp;&nbsp;✅ 2 merged · merged diff **+720 / −7**
 - **[GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering)** (376 ⭐) — _Open-source GRC toolkit from the GRC Engineering Club. Claude Code plugins for evidence collection, SCF crosswalks, multi-framework gap reports, OSCAL workflows._<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 1 closed · merged diff **+1,698 / −7**
 - **[ReversecLabs/spikee](https://github.com/ReversecLabs/spikee)** (231 ⭐) — _Simple Prompt Injection Kit for Evaluation and Exploitation_<br>&nbsp;&nbsp;✅ 2 merged · 🟡 1 in review · merged diff **+199 / −2**
@@ -120,7 +120,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[NVIDIA/garak](https://github.com/NVIDIA/garak)** (8.8K ⭐) — _the LLM vulnerability scanner_<br>&nbsp;&nbsp;✅ 1 merged · ⚪ 1 closed · merged diff **+107 / −0**
 - **[intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl)** (4.7K ⭐) — _IntelOwl: manage your Threat Intelligence at scale_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+376 / −0**
 - **[vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup)** (564 ⭐) — _Vulnerability-Lookup facilitates quick correlation of vulnerabilities from various sources, independent of vulnerability IDs, and streamlines the management of Coordinated Vulnerability Disclosure (CVD)._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+50 / −0**
-- **[sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules)** (371 ⭐) — _Sublime rules for email attack detection, prevention, and threat hunting._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+1 / −1**
+- **[sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules)** (372 ⭐) — _Sublime rules for email attack detection, prevention, and threat hunting._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+1 / −1**
 - **[Yamato-Security/hayabusa-rules](https://github.com/Yamato-Security/hayabusa-rules)** (222 ⭐) — _Curated Windows event log Sigma rules used in Hayabusa and Velociraptor._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+407 / −0**
 - **[kubescape/regolibrary](https://github.com/kubescape/regolibrary)** (131 ⭐) — _The regolibrary package contains the controls Kubescape uses for detecting misconfigurations in Kubernetes manifests._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+96 / −3**
 - **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)** (46.9K ⭐) — _Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production._<br>&nbsp;&nbsp;🟡 1 in review
@@ -141,7 +141,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules)** (516 ⭐) — _Semgrep queries developed by Trail of Bits._<br>&nbsp;&nbsp;🟡 1 in review
 - **[sigstore/model-transparency](https://github.com/sigstore/model-transparency)** (244 ⭐) — _Supply chain security for ML_<br>&nbsp;&nbsp;🟡 1 in review
 - **[t0sche/cvss-bt](https://github.com/t0sche/cvss-bt)** (227 ⭐) — _Enriching the NVD CVSS scores to include Temporal & Threat Metrics_<br>&nbsp;&nbsp;🟡 1 in review
-- **[falcosecurity/rules](https://github.com/falcosecurity/rules)** (184 ⭐) — _Falco rule repository_<br>&nbsp;&nbsp;🟡 1 in review
+- **[falcosecurity/rules](https://github.com/falcosecurity/rules)** (185 ⭐) — _Falco rule repository_<br>&nbsp;&nbsp;🟡 1 in review
 
 <details>
 <summary><b>All pull requests</b></summary>
@@ -164,7 +164,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup) | 564 | [#431](https://github.com/vulnerability-lookup/vulnerability-lookup/pull/431) new: [perf] add pg_trgm GIN indexes for sighting source/vulnerabili… | +50 / −0 | ✅ Merged |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 376 | [#72](https://github.com/GRCEngClub/claude-grc-engineering/pull/72) feat(frameworks): Reference-depth India DPDPA plugin (ind-dpdpa) | +1,425 / −0 | ✅ Merged |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 376 | [#71](https://github.com/GRCEngClub/claude-grc-engineering/pull/71) ci(plugins): validate manifests against JSON Schema on every PR | +273 / −7 | ✅ Merged |
-| [sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules) | 371 | [#4655](https://github.com/sublime-security/sublime-rules/pull/4655) fix: replace deprecated $alexa_1m with $tranco_1m in link_cuttly di… | +1 / −1 | ✅ Merged |
+| [sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules) | 372 | [#4655](https://github.com/sublime-security/sublime-rules/pull/4655) fix: replace deprecated $alexa_1m with $tranco_1m in link_cuttly di… | +1 / −1 | ✅ Merged |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 231 | [#109](https://github.com/ReversecLabs/spikee/pull/109) feat: add homoglyph encoding plugin (Unicode confusables) | +197 / −0 | ✅ Merged |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 231 | [#111](https://github.com/ReversecLabs/spikee/pull/111) docs: fix GOAT citation and note workspace-only status in 02_builti… | +2 / −2 | ✅ Merged |
 | [Yamato-Security/hayabusa-rules](https://github.com/Yamato-Security/hayabusa-rules) | 222 | [#1036](https://github.com/Yamato-Security/hayabusa-rules/pull/1036) ci: block merge when a rule id (UUID) is used by more than one rule… | +407 / −0 | ✅ Merged |
@@ -185,7 +185,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [sigstore/model-transparency](https://github.com/sigstore/model-transparency) | 244 | [#642](https://github.com/sigstore/model-transparency/pull/642) feat: Add in-memory signing API returning the Sigstore bundle as bytes | +130 / −4 | 🟡 In review |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 231 | [#110](https://github.com/ReversecLabs/spikee/pull/110) feat(judges): add secret_leak judge for credential/PII exfiltration… | +324 / −0 | 🟡 In review |
 | [t0sche/cvss-bt](https://github.com/t0sche/cvss-bt) | 227 | [#46](https://github.com/t0sche/cvss-bt/pull/46) feat: add exploit_maturity_source column for auditable E-value prov… | +158 / −1 | 🟡 In review |
-| [falcosecurity/rules](https://github.com/falcosecurity/rules) | 184 | [#373](https://github.com/falcosecurity/rules/pull/373) new(rules): detect GPU/accelerator cryptojacking and device access … | +81 / −0 | 🟡 In review |
+| [falcosecurity/rules](https://github.com/falcosecurity/rules) | 185 | [#373](https://github.com/falcosecurity/rules/pull/373) new(rules): detect GPU/accelerator cryptojacking and device access … | +81 / −0 | 🟡 In review |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.8K | [#16054](https://github.com/projectdiscovery/nuclei-templates/pull/16054) add: Langflow unauthenticated flow API exposure detection | +80 / −0 | ⚪ Closed |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.8K | [#16386](https://github.com/projectdiscovery/nuclei-templates/pull/16386) add: Qdrant vector database - unauthenticated collections exposure | +48 / −0 | ⚪ Closed |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.8K | [#16051](https://github.com/projectdiscovery/nuclei-templates/pull/16051) fix(CVE-2025-58360): switch GeoServer XXE detection to OAST (FN on … | +15 / −8 | ⚪ Closed |
