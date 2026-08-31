@@ -139,7 +139,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[trailofbits/fickling](https://github.com/trailofbits/fickling)** (665 ⭐) — _A Python pickling decompiler and static analyzer_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[ossf/malicious-packages](https://github.com/ossf/malicious-packages)** (605 ⭐) — _A repository of reports of malicious packages identified in Open Source package repositories, consumable via the Open Source Vulnerability (OSV) format._<br>&nbsp;&nbsp;🟡 1 in review
 - **[trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules)** (524 ⭐) — _Semgrep queries developed by Trail of Bits._<br>&nbsp;&nbsp;🟡 1 in review
-- **[sigstore/model-transparency](https://github.com/sigstore/model-transparency)** (243 ⭐) — _Supply chain security for ML_<br>&nbsp;&nbsp;🟡 1 in review
+- **[sigstore/model-transparency](https://github.com/sigstore/model-transparency)** (244 ⭐) — _Supply chain security for ML_<br>&nbsp;&nbsp;🟡 1 in review
 - **[t0sche/cvss-bt](https://github.com/t0sche/cvss-bt)** (227 ⭐) — _Enriching the NVD CVSS scores to include Temporal & Threat Metrics_<br>&nbsp;&nbsp;🟡 1 in review
 - **[falcosecurity/rules](https://github.com/falcosecurity/rules)** (187 ⭐) — _Falco rule repository_<br>&nbsp;&nbsp;🟡 1 in review
 
@@ -183,7 +183,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [utkusen/promptmap](https://github.com/utkusen/promptmap) | 1.3K | [#10](https://github.com/utkusen/promptmap/pull/10) feat(rules): add indirect_injection category (12 rules) | +243 / −6 | 🟡 In review |
 | [ossf/malicious-packages](https://github.com/ossf/malicious-packages) | 605 | [#1329](https://github.com/ossf/malicious-packages/pull/1329) docs: add a consumer guide for using the reports | +296 / −0 | 🟡 In review |
 | [trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules) | 524 | [#83](https://github.com/trailofbits/semgrep-rules/pull/83) python: add hf-trust-remote-code rule (HuggingFace trust_remote_cod… | +103 / −0 | 🟡 In review |
-| [sigstore/model-transparency](https://github.com/sigstore/model-transparency) | 243 | [#642](https://github.com/sigstore/model-transparency/pull/642) feat: Add in-memory signing API returning the Sigstore bundle as bytes | +139 / −4 | 🟡 In review |
+| [sigstore/model-transparency](https://github.com/sigstore/model-transparency) | 244 | [#642](https://github.com/sigstore/model-transparency/pull/642) feat: Add in-memory signing API returning the Sigstore bundle as bytes | +139 / −4 | 🟡 In review |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 232 | [#110](https://github.com/ReversecLabs/spikee/pull/110) feat(judges): add secret_leak judge for credential/PII exfiltration… | +338 / −0 | 🟡 In review |
 | [t0sche/cvss-bt](https://github.com/t0sche/cvss-bt) | 227 | [#46](https://github.com/t0sche/cvss-bt/pull/46) feat: add exploit_maturity_source column for auditable E-value prov… | +158 / −1 | 🟡 In review |
 | [falcosecurity/rules](https://github.com/falcosecurity/rules) | 187 | [#373](https://github.com/falcosecurity/rules/pull/373) new(rules): detect GPU/accelerator cryptojacking and device access … | +93 / −0 | 🟡 In review |
