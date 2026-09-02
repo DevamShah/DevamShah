@@ -120,7 +120,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[NVIDIA/garak](https://github.com/NVIDIA/garak)** (9.1K ⭐) — _the LLM vulnerability scanner_<br>&nbsp;&nbsp;✅ 1 merged · ⚪ 1 closed · merged diff **+107 / −0**
 - **[intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl)** (4.7K ⭐) — _IntelOwl: manage your Threat Intelligence at scale_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+376 / −0**
 - **[vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup)** (569 ⭐) — _Vulnerability-Lookup facilitates quick correlation of vulnerabilities from various sources, independent of vulnerability IDs, and streamlines the management of Coordinated Vulnerability Disclosure (CVD)._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+50 / −0**
-- **[sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules)** (372 ⭐) — _Sublime rules for email attack detection, prevention, and threat hunting._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+1 / −1**
+- **[sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules)** (373 ⭐) — _Sublime rules for email attack detection, prevention, and threat hunting._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+1 / −1**
 - **[Yamato-Security/hayabusa-rules](https://github.com/Yamato-Security/hayabusa-rules)** (222 ⭐) — _Curated Windows event log Sigma rules used in Hayabusa and Velociraptor._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+407 / −0**
 - **[kubescape/regolibrary](https://github.com/kubescape/regolibrary)** (132 ⭐) — _The regolibrary package contains the controls Kubescape uses for detecting misconfigurations in Kubernetes manifests._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+96 / −3**
 - **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)** (47.6K ⭐) — _Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production._<br>&nbsp;&nbsp;🟡 1 in review
@@ -136,7 +136,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[stacklok/toolhive](https://github.com/stacklok/toolhive)** (2.1K ⭐) — _ToolHive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers._<br>&nbsp;&nbsp;⚪ 1 closed
 - **[utkusen/promptmap](https://github.com/utkusen/promptmap)** (1.3K ⭐) — _a security scanner for custom LLM applications_<br>&nbsp;&nbsp;🟡 1 in review
 - **[safedep/vet](https://github.com/safedep/vet)** (1.1K ⭐) — _Protect against malicious open source packages 🤖_<br>&nbsp;&nbsp;⚪ 1 closed
-- **[trailofbits/fickling](https://github.com/trailofbits/fickling)** (666 ⭐) — _A Python pickling decompiler and static analyzer_<br>&nbsp;&nbsp;⚪ 1 closed
+- **[trailofbits/fickling](https://github.com/trailofbits/fickling)** (667 ⭐) — _A Python pickling decompiler and static analyzer_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[ossf/malicious-packages](https://github.com/ossf/malicious-packages)** (607 ⭐) — _A repository of reports of malicious packages identified in Open Source package repositories, consumable via the Open Source Vulnerability (OSV) format._<br>&nbsp;&nbsp;🟡 1 in review
 - **[trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules)** (525 ⭐) — _Semgrep queries developed by Trail of Bits._<br>&nbsp;&nbsp;🟡 1 in review
 - **[sigstore/model-transparency](https://github.com/sigstore/model-transparency)** (244 ⭐) — _Supply chain security for ML_<br>&nbsp;&nbsp;🟡 1 in review
@@ -164,7 +164,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup) | 569 | [#431](https://github.com/vulnerability-lookup/vulnerability-lookup/pull/431) new: [perf] add pg_trgm GIN indexes for sighting source/vulnerabili… | +50 / −0 | ✅ Merged |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 391 | [#72](https://github.com/GRCEngClub/claude-grc-engineering/pull/72) feat(frameworks): Reference-depth India DPDPA plugin (ind-dpdpa) | +1,425 / −0 | ✅ Merged |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 391 | [#71](https://github.com/GRCEngClub/claude-grc-engineering/pull/71) ci(plugins): validate manifests against JSON Schema on every PR | +273 / −7 | ✅ Merged |
-| [sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules) | 372 | [#4655](https://github.com/sublime-security/sublime-rules/pull/4655) fix: replace deprecated $alexa_1m with $tranco_1m in link_cuttly di… | +1 / −1 | ✅ Merged |
+| [sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules) | 373 | [#4655](https://github.com/sublime-security/sublime-rules/pull/4655) fix: replace deprecated $alexa_1m with $tranco_1m in link_cuttly di… | +1 / −1 | ✅ Merged |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 233 | [#109](https://github.com/ReversecLabs/spikee/pull/109) feat: add homoglyph encoding plugin (Unicode confusables) | +197 / −0 | ✅ Merged |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 233 | [#111](https://github.com/ReversecLabs/spikee/pull/111) docs: fix GOAT citation and note workspace-only status in 02_builti… | +2 / −2 | ✅ Merged |
 | [Yamato-Security/hayabusa-rules](https://github.com/Yamato-Security/hayabusa-rules) | 222 | [#1036](https://github.com/Yamato-Security/hayabusa-rules/pull/1036) ci: block merge when a rule id (UUID) is used by more than one rule… | +407 / −0 | ✅ Merged |
@@ -196,7 +196,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team) | 2.4K | [#886](https://github.com/DataDog/stratus-red-team/pull/886) Add MITRE ATLAS as a first-class framework mapping (Cost Harvesting… | +27 / −1 | ⚪ Closed |
 | [stacklok/toolhive](https://github.com/stacklok/toolhive) | 2.1K | [#5588](https://github.com/stacklok/toolhive/pull/5588) Add CORS support to the transparent MCP proxy | +665 / −4 | ⚪ Closed |
 | [safedep/vet](https://github.com/safedep/vet) | 1.1K | [#745](https://github.com/safedep/vet/pull/745) feat: add pre-commit hook for local dependency scanning (closes #443) | +116 / −0 | ⚪ Closed |
-| [trailofbits/fickling](https://github.com/trailofbits/fickling) | 666 | [#283](https://github.com/trailofbits/fickling/pull/283) Add recursive directory and glob scanning to the CLI for bulk pickl… | +330 / −1 | ⚪ Closed |
+| [trailofbits/fickling](https://github.com/trailofbits/fickling) | 667 | [#283](https://github.com/trailofbits/fickling/pull/283) Add recursive directory and glob scanning to the CLI for bulk pickl… | +330 / −1 | ⚪ Closed |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 391 | [#70](https://github.com/GRCEngClub/claude-grc-engineering/pull/70) fix(plugins): use object form for plugin.json author field | +7 / −7 | ⚪ Closed |
 
 </details>
