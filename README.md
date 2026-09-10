@@ -129,7 +129,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** (29.2K ⭐) — _Find secrets with Gitleaks 🔑_<br>&nbsp;&nbsp;🟡 2 in review
 - **[blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot)** (10.6K ⭐) — _The recursive internet scanner for hackers. 🧡_<br>&nbsp;&nbsp;🟡 1 in review
 - **[PyCQA/bandit](https://github.com/PyCQA/bandit)** (8.3K ⭐) — _Bandit is a tool designed to find common security issues in Python code._<br>&nbsp;&nbsp;🟡 1 in review
-- **[Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)** (5.8K ⭐) — _The Network Execution Tool_<br>&nbsp;&nbsp;⚪ 1 closed
+- **[Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)** (5.9K ⭐) — _The Network Execution Tool_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[ossf/scorecard](https://github.com/ossf/scorecard)** (5.7K ⭐) — _OpenSSF Scorecard - Security health metrics for Open Source_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu)** (5.3K ⭐) — _The AWS exploitation framework, designed for testing the security of Amazon Web Services environments._<br>&nbsp;&nbsp;🟡 1 in review
 - **[confident-ai/deepteam](https://github.com/confident-ai/deepteam)** (2.8K ⭐) — _DeepTeam is a framework to red team LLMs and AI agents._<br>&nbsp;&nbsp;🟡 1 in review
@@ -190,7 +190,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.9K | [#16386](https://github.com/projectdiscovery/nuclei-templates/pull/16386) add: Qdrant vector database - unauthenticated collections exposure | +48 / −0 | ⚪ Closed |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 12.9K | [#16051](https://github.com/projectdiscovery/nuclei-templates/pull/16051) fix(CVE-2025-58360): switch GeoServer XXE detection to OAST (FN on … | +15 / −8 | ⚪ Closed |
 | [NVIDIA/garak](https://github.com/NVIDIA/garak) | 9.2K | [#1858](https://github.com/NVIDIA/garak/pull/1858) probes: add many-shot jailbreaking probe | +195 / −0 | ⚪ Closed |
-| [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | 5.8K | [#1289](https://github.com/Pennyw0rth/NetExec/pull/1289) fix(mssql): print a clean error for --rid-brute without authentication | +3 / −0 | ⚪ Closed |
+| [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | 5.9K | [#1289](https://github.com/Pennyw0rth/NetExec/pull/1289) fix(mssql): print a clean error for --rid-brute without authentication | +3 / −0 | ⚪ Closed |
 | [ossf/scorecard](https://github.com/ossf/scorecard) | 5.7K | [#5103](https://github.com/ossf/scorecard/pull/5103) checks/sast: detect Semgrep, Bandit, and gosec SAST workflows | +162 / −0 | ⚪ Closed |
 | [DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team) | 2.4K | [#886](https://github.com/DataDog/stratus-red-team/pull/886) Add MITRE ATLAS as a first-class framework mapping (Cost Harvesting… | +27 / −1 | ⚪ Closed |
 | [stacklok/toolhive](https://github.com/stacklok/toolhive) | 2.2K | [#5588](https://github.com/stacklok/toolhive/pull/5588) Add CORS support to the transparent MCP proxy | +665 / −4 | ⚪ Closed |
