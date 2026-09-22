@@ -18,7 +18,7 @@
 <br><br>
 
 <!-- merged-badge:start -->
-<img src="https://img.shields.io/badge/OSS_Merged_PRs-24-d4a24c?style=for-the-badge&logo=github&logoColor=d4a24c&labelColor=0a0f22">
+<img src="https://img.shields.io/badge/OSS_Merged_PRs-25-d4a24c?style=for-the-badge&logo=github&logoColor=d4a24c&labelColor=0a0f22">
 <img src="https://img.shields.io/badge/Across-14_security_projects-0a0f22?style=for-the-badge&labelColor=0a0f22">
 <!-- merged-badge:end -->
 
@@ -107,11 +107,11 @@ Human-mimicry by design. Always safe-mode. Full jitter. Never 24/7. Built on the
 Public pull requests to repositories I don't own — auto-refreshed daily.
 
 <!-- contributions:start -->
-**24 merged · 17 in review · 13 closed** across **31** external project(s).
+**25 merged · 16 in review · 13 closed** across **31** external project(s).
 
 ### Projects with accepted contributions
 
-- **[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)** (13.0K ⭐) — _Community curated list of templates for the nuclei engine to find security vulnerabilities._<br>&nbsp;&nbsp;✅ 6 merged · 🟡 3 in review · ⚪ 3 closed · merged diff **+154 / −66**
+- **[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)** (13.0K ⭐) — _Community curated list of templates for the nuclei engine to find security vulnerabilities._<br>&nbsp;&nbsp;✅ 7 merged · 🟡 2 in review · ⚪ 3 closed · merged diff **+200 / −66**
 - **[Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)** (6.5K ⭐) — _A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation._<br>&nbsp;&nbsp;✅ 3 merged · 🟡 1 in review · merged diff **+743 / −0**
 - **[msoedov/agentic_security](https://github.com/msoedov/agentic_security)** (2.0K ⭐) — _Agentic LLM Vulnerability Scanner / AI red teaming kit 🧪_<br>&nbsp;&nbsp;✅ 2 merged · merged diff **+720 / −7**
 - **[GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering)** (406 ⭐) — _Open-source GRC toolkit from the GRC Engineering Club. Claude Code plugins for evidence collection, SCF crosswalks, multi-framework gap reports, OSCAL workflows._<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 2 closed · merged diff **+1,698 / −7**
@@ -121,7 +121,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl)** (4.7K ⭐) — _IntelOwl: manage your Threat Intelligence at scale_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+376 / −0**
 - **[vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup)** (577 ⭐) — _Vulnerability-Lookup facilitates quick correlation of vulnerabilities from various sources, independent of vulnerability IDs, and streamlines the management of Coordinated Vulnerability Disclosure (CVD)._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+50 / −0**
 - **[sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules)** (374 ⭐) — _Sublime rules for email attack detection, prevention, and threat hunting._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+1 / −1**
-- **[sigstore/model-transparency](https://github.com/sigstore/model-transparency)** (245 ⭐) — _Supply chain security for ML_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+139 / −4**
+- **[sigstore/model-transparency](https://github.com/sigstore/model-transparency)** (246 ⭐) — _Supply chain security for ML_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+139 / −4**
 - **[Yamato-Security/hayabusa-rules](https://github.com/Yamato-Security/hayabusa-rules)** (223 ⭐) — _Curated Windows event log Sigma rules used in Hayabusa and Velociraptor._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+407 / −0**
 - **[falcosecurity/rules](https://github.com/falcosecurity/rules)** (189 ⭐) — _Falco rule repository_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+93 / −0**
 - **[kubescape/regolibrary](https://github.com/kubescape/regolibrary)** (132 ⭐) — _The regolibrary package contains the controls Kubescape uses for detecting misconfigurations in Kubernetes manifests._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+96 / −3**
@@ -150,6 +150,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 |---|---:|---|---:|---|
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.0K | [#16053](https://github.com/projectdiscovery/nuclei-templates/pull/16053) fix(tomcat-default-login): order payloads to dodge LockOutRealm (FN) | +51 / −55 | ✅ Merged |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.0K | [#16055](https://github.com/projectdiscovery/nuclei-templates/pull/16055) add: LiteLLM proxy unauthenticated /model/info exposure | +51 / −0 | ✅ Merged |
+| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.0K | [#17020](https://github.com/projectdiscovery/nuclei-templates/pull/17020) add: Qdrant unauthenticated telemetry exposure | +46 / −0 | ✅ Merged |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.0K | [#16385](https://github.com/projectdiscovery/nuclei-templates/pull/16385) dns: add internal IP address disclosure in DNS A records | +42 / −0 | ✅ Merged |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.0K | [#16056](https://github.com/projectdiscovery/nuclei-templates/pull/16056) add: ChromaDB unauthenticated collections API exposure | +9 / −3 | ✅ Merged |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.0K | [#16050](https://github.com/projectdiscovery/nuclei-templates/pull/16050) fix: drop clear-site-data matcher from http-missing-security-header… | +0 / −7 | ✅ Merged |
@@ -168,7 +169,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules) | 374 | [#4655](https://github.com/sublime-security/sublime-rules/pull/4655) fix: replace deprecated $alexa_1m with $tranco_1m in link_cuttly di… | +1 / −1 | ✅ Merged |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 247 | [#109](https://github.com/ReversecLabs/spikee/pull/109) feat: add homoglyph encoding plugin (Unicode confusables) | +197 / −0 | ✅ Merged |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 247 | [#111](https://github.com/ReversecLabs/spikee/pull/111) docs: fix GOAT citation and note workspace-only status in 02_builti… | +2 / −2 | ✅ Merged |
-| [sigstore/model-transparency](https://github.com/sigstore/model-transparency) | 245 | [#642](https://github.com/sigstore/model-transparency/pull/642) feat: Add in-memory signing API returning the Sigstore bundle as bytes | +139 / −4 | ✅ Merged |
+| [sigstore/model-transparency](https://github.com/sigstore/model-transparency) | 246 | [#642](https://github.com/sigstore/model-transparency/pull/642) feat: Add in-memory signing API returning the Sigstore bundle as bytes | +139 / −4 | ✅ Merged |
 | [Yamato-Security/hayabusa-rules](https://github.com/Yamato-Security/hayabusa-rules) | 223 | [#1036](https://github.com/Yamato-Security/hayabusa-rules/pull/1036) ci: block merge when a rule id (UUID) is used by more than one rule… | +407 / −0 | ✅ Merged |
 | [falcosecurity/rules](https://github.com/falcosecurity/rules) | 189 | [#373](https://github.com/falcosecurity/rules/pull/373) new(rules): detect GPU/accelerator cryptojacking and device access … | +93 / −0 | ✅ Merged |
 | [kubescape/regolibrary](https://github.com/kubescape/regolibrary) | 132 | [#753](https://github.com/kubescape/regolibrary/pull/753) feat(C-0021): cover AI/ML inference and MLOps interfaces in sensiti… | +96 / −3 | ✅ Merged |
@@ -176,9 +177,8 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | 31.4K | [#7495](https://github.com/projectdiscovery/nuclei/pull/7495) feat(reporting): add CSV result exporter (-csv-export) | +623 / −0 | 🟡 In review |
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 29.4K | [#2177](https://github.com/gitleaks/gitleaks/pull/2177) feat(rules): add Pinecone and LangSmith API key detection rules | +89 / −0 | 🟡 In review |
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 29.4K | [#2178](https://github.com/gitleaks/gitleaks/pull/2178) feat(rules): add Anthropic OAuth refresh token rule (sk-ant-ort01-) | +36 / −0 | 🟡 In review |
-| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.0K | [#17269](https://github.com/projectdiscovery/nuclei-templates/pull/17269) MCP Streamable HTTP Server - Unauthenticated Initialize | +68 / −0 | 🟡 In review |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.0K | [#17270](https://github.com/projectdiscovery/nuclei-templates/pull/17270) Add NVIDIA Triton Inference Server unauthenticated model repository… | +67 / −0 | 🟡 In review |
-| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.0K | [#17020](https://github.com/projectdiscovery/nuclei-templates/pull/17020) add: Qdrant unauthenticated telemetry exposure | +57 / −0 | 🟡 In review |
+| [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.0K | [#17269](https://github.com/projectdiscovery/nuclei-templates/pull/17269) MCP Streamable HTTP Server - Unauthenticated Initialize | +67 / −0 | 🟡 In review |
 | [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | 12.6K | [#3359](https://github.com/redcanaryco/atomic-red-team/pull/3359) Add T1213.005 - Data from Information Repositories: Messaging Appli… | +187 / −0 | 🟡 In review |
 | [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot) | 10.6K | [#3235](https://github.com/blacklanternsecurity/bbot/pull/3235) excavate: add AIApplicationExtractor for LLM endpoints, SDKs, and l… | +189 / −0 | 🟡 In review |
 | [PyCQA/bandit](https://github.com/PyCQA/bandit) | 8.3K | [#1441](https://github.com/PyCQA/bandit/pull/1441) fix(B614): lower confidence for unresolvable weights_only; add torc… | +59 / −3 | 🟡 In review |
