@@ -127,7 +127,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[kubescape/regolibrary](https://github.com/kubescape/regolibrary)** (133 ⭐) — _The regolibrary package contains the controls Kubescape uses for detecting misconfigurations in Kubernetes manifests._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+96 / −3**
 - **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)** (48.3K ⭐) — _Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production._<br>&nbsp;&nbsp;🟡 1 in review
 - **[projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)** (31.5K ⭐) — _Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations._<br>&nbsp;&nbsp;🟡 1 in review
-- **[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** (29.4K ⭐) — _Find secrets with Gitleaks 🔑_<br>&nbsp;&nbsp;🟡 2 in review
+- **[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** (29.5K ⭐) — _Find secrets with Gitleaks 🔑_<br>&nbsp;&nbsp;🟡 2 in review
 - **[blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot)** (10.6K ⭐) — _The recursive internet scanner for hackers. 🧡_<br>&nbsp;&nbsp;🟡 1 in review
 - **[PyCQA/bandit](https://github.com/PyCQA/bandit)** (8.3K ⭐) — _Bandit is a tool designed to find common security issues in Python code._<br>&nbsp;&nbsp;🟡 1 in review
 - **[Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)** (5.9K ⭐) — _The Network Execution Tool_<br>&nbsp;&nbsp;⚪ 1 closed
@@ -139,8 +139,8 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[utkusen/promptmap](https://github.com/utkusen/promptmap)** (1.3K ⭐) — _a security scanner for custom LLM applications_<br>&nbsp;&nbsp;🟡 1 in review
 - **[safedep/vet](https://github.com/safedep/vet)** (1.1K ⭐) — _Protect against malicious open source packages 🤖_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[trailofbits/fickling](https://github.com/trailofbits/fickling)** (670 ⭐) — _A Python pickling decompiler and static analyzer_<br>&nbsp;&nbsp;⚪ 1 closed
-- **[ossf/malicious-packages](https://github.com/ossf/malicious-packages)** (613 ⭐) — _A repository of reports of malicious packages identified in Open Source package repositories, consumable via the Open Source Vulnerability (OSV) format._<br>&nbsp;&nbsp;🟡 1 in review
-- **[trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules)** (527 ⭐) — _Semgrep queries developed by Trail of Bits._<br>&nbsp;&nbsp;🟡 1 in review
+- **[ossf/malicious-packages](https://github.com/ossf/malicious-packages)** (614 ⭐) — _A repository of reports of malicious packages identified in Open Source package repositories, consumable via the Open Source Vulnerability (OSV) format._<br>&nbsp;&nbsp;🟡 1 in review
+- **[trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules)** (528 ⭐) — _Semgrep queries developed by Trail of Bits._<br>&nbsp;&nbsp;🟡 1 in review
 - **[t0sche/cvss-bt](https://github.com/t0sche/cvss-bt)** (226 ⭐) — _Enriching the NVD CVSS scores to include Temporal & Threat Metrics_<br>&nbsp;&nbsp;🟡 1 in review
 
 <details>
@@ -176,8 +176,8 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [kubescape/regolibrary](https://github.com/kubescape/regolibrary) | 133 | [#753](https://github.com/kubescape/regolibrary/pull/753) feat(C-0021): cover AI/ML inference and MLOps interfaces in sensiti… | +96 / −3 | ✅ Merged |
 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 48.3K | [#322](https://github.com/KeygraphHQ/shannon/pull/322) Security hardening, CLI bug fixes, and SARIF report output | +26 / −6 | 🟡 In review |
 | [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | 31.5K | [#7495](https://github.com/projectdiscovery/nuclei/pull/7495) feat(reporting): add CSV result exporter (-csv-export) | +623 / −0 | 🟡 In review |
-| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 29.4K | [#2177](https://github.com/gitleaks/gitleaks/pull/2177) feat(rules): add Pinecone and LangSmith API key detection rules | +89 / −0 | 🟡 In review |
-| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 29.4K | [#2178](https://github.com/gitleaks/gitleaks/pull/2178) feat(rules): add Anthropic OAuth refresh token rule (sk-ant-ort01-) | +36 / −0 | 🟡 In review |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 29.5K | [#2177](https://github.com/gitleaks/gitleaks/pull/2177) feat(rules): add Pinecone and LangSmith API key detection rules | +89 / −0 | 🟡 In review |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 29.5K | [#2178](https://github.com/gitleaks/gitleaks/pull/2178) feat(rules): add Anthropic OAuth refresh token rule (sk-ant-ort01-) | +36 / −0 | 🟡 In review |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.0K | [#17270](https://github.com/projectdiscovery/nuclei-templates/pull/17270) Add NVIDIA Triton Inference Server unauthenticated model repository… | +67 / −0 | 🟡 In review |
 | [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | 12.6K | [#3359](https://github.com/redcanaryco/atomic-red-team/pull/3359) Add T1213.005 - Data from Information Repositories: Messaging Appli… | +187 / −0 | 🟡 In review |
 | [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot) | 10.6K | [#3235](https://github.com/blacklanternsecurity/bbot/pull/3235) excavate: add AIApplicationExtractor for LLM endpoints, SDKs, and l… | +189 / −0 | 🟡 In review |
@@ -186,8 +186,8 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu) | 5.3K | [#534](https://github.com/RhinoSecurityLabs/pacu/pull/534) fix(sns__enum): paginate list_topics and list_subscriptions_by_topi… | +346 / −7 | 🟡 In review |
 | [confident-ai/deepteam](https://github.com/confident-ai/deepteam) | 2.9K | [#236](https://github.com/confident-ai/deepteam/pull/236) feat(attacks): add Caesar, Morse, hex, zero-width & homoglyph encod… | +858 / −0 | 🟡 In review |
 | [utkusen/promptmap](https://github.com/utkusen/promptmap) | 1.3K | [#10](https://github.com/utkusen/promptmap/pull/10) feat(rules): add indirect_injection category (12 rules) | +243 / −6 | 🟡 In review |
-| [ossf/malicious-packages](https://github.com/ossf/malicious-packages) | 613 | [#1329](https://github.com/ossf/malicious-packages/pull/1329) docs: add a consumer guide for using the reports | +296 / −0 | 🟡 In review |
-| [trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules) | 527 | [#83](https://github.com/trailofbits/semgrep-rules/pull/83) python: add hf-trust-remote-code rule (HuggingFace trust_remote_cod… | +103 / −0 | 🟡 In review |
+| [ossf/malicious-packages](https://github.com/ossf/malicious-packages) | 614 | [#1329](https://github.com/ossf/malicious-packages/pull/1329) docs: add a consumer guide for using the reports | +296 / −0 | 🟡 In review |
+| [trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules) | 528 | [#83](https://github.com/trailofbits/semgrep-rules/pull/83) python: add hf-trust-remote-code rule (HuggingFace trust_remote_cod… | +103 / −0 | 🟡 In review |
 | [t0sche/cvss-bt](https://github.com/t0sche/cvss-bt) | 226 | [#46](https://github.com/t0sche/cvss-bt/pull/46) feat: add exploit_maturity_source column for auditable E-value prov… | +158 / −1 | 🟡 In review |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.0K | [#16054](https://github.com/projectdiscovery/nuclei-templates/pull/16054) add: Langflow unauthenticated flow API exposure detection | +80 / −0 | ⚪ Closed |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.0K | [#16386](https://github.com/projectdiscovery/nuclei-templates/pull/16386) add: Qdrant vector database - unauthenticated collections exposure | +48 / −0 | ⚪ Closed |
