@@ -132,7 +132,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[PyCQA/bandit](https://github.com/PyCQA/bandit)** (8.3K ⭐) — _Bandit is a tool designed to find common security issues in Python code._<br>&nbsp;&nbsp;🟡 1 in review
 - **[Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)** (5.9K ⭐) — _The Network Execution Tool_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[ossf/scorecard](https://github.com/ossf/scorecard)** (5.7K ⭐) — _OpenSSF Scorecard - Security health metrics for Open Source_<br>&nbsp;&nbsp;⚪ 1 closed
-- **[RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu)** (5.3K ⭐) — _The AWS exploitation framework, designed for testing the security of Amazon Web Services environments._<br>&nbsp;&nbsp;🟡 1 in review
+- **[RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu)** (5.4K ⭐) — _The AWS exploitation framework, designed for testing the security of Amazon Web Services environments._<br>&nbsp;&nbsp;🟡 1 in review
 - **[confident-ai/deepteam](https://github.com/confident-ai/deepteam)** (3.0K ⭐) — _DeepTeam is a framework to red team LLMs and AI agents._<br>&nbsp;&nbsp;🟡 1 in review
 - **[DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team)** (2.4K ⭐) — _:cloud: :zap: Granular, Actionable Adversary Emulation for the Cloud_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[stacklok/toolhive](https://github.com/stacklok/toolhive)** (2.3K ⭐) — _ToolHive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers._<br>&nbsp;&nbsp;⚪ 1 closed
@@ -183,7 +183,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot) | 10.7K | [#3235](https://github.com/blacklanternsecurity/bbot/pull/3235) excavate: add AIApplicationExtractor for LLM endpoints, SDKs, and l… | +168 / −0 | 🟡 In review |
 | [PyCQA/bandit](https://github.com/PyCQA/bandit) | 8.3K | [#1441](https://github.com/PyCQA/bandit/pull/1441) fix(B614): lower confidence for unresolvable weights_only; add torc… | +59 / −3 | 🟡 In review |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 6.8K | [#429](https://github.com/Tencent/AI-Infra-Guard/pull/429) feat(agent-scan): add memory/RAG poisoning detection skill | +177 / −0 | 🟡 In review |
-| [RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu) | 5.3K | [#534](https://github.com/RhinoSecurityLabs/pacu/pull/534) fix(sns__enum): paginate list_topics and list_subscriptions_by_topi… | +346 / −7 | 🟡 In review |
+| [RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu) | 5.4K | [#534](https://github.com/RhinoSecurityLabs/pacu/pull/534) fix(sns__enum): paginate list_topics and list_subscriptions_by_topi… | +346 / −7 | 🟡 In review |
 | [confident-ai/deepteam](https://github.com/confident-ai/deepteam) | 3.0K | [#236](https://github.com/confident-ai/deepteam/pull/236) feat(attacks): add Caesar, Morse, hex, zero-width & homoglyph encod… | +858 / −0 | 🟡 In review |
 | [utkusen/promptmap](https://github.com/utkusen/promptmap) | 1.3K | [#10](https://github.com/utkusen/promptmap/pull/10) feat(rules): add indirect_injection category (12 rules) | +243 / −6 | 🟡 In review |
 | [ossf/malicious-packages](https://github.com/ossf/malicious-packages) | 623 | [#1329](https://github.com/ossf/malicious-packages/pull/1329) docs: add a consumer guide for using the reports | +296 / −0 | 🟡 In review |
