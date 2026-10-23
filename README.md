@@ -112,7 +112,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 ### Projects with accepted contributions
 
 - **[projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)** (13.2K ⭐) — _Community curated list of templates for the nuclei engine to find security vulnerabilities._<br>&nbsp;&nbsp;✅ 8 merged · ⚪ 4 closed · merged diff **+267 / −66**
-- **[Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)** (6.9K ⭐) — _A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation._<br>&nbsp;&nbsp;✅ 4 merged · merged diff **+920 / −0**
+- **[Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)** (7.0K ⭐) — _A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation._<br>&nbsp;&nbsp;✅ 4 merged · merged diff **+920 / −0**
 - **[msoedov/agentic_security](https://github.com/msoedov/agentic_security)** (2.0K ⭐) — _Agentic LLM Vulnerability Scanner / AI red teaming kit 🧪_<br>&nbsp;&nbsp;✅ 2 merged · merged diff **+720 / −7**
 - **[GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering)** (422 ⭐) — _Open-source GRC toolkit from the GRC Engineering Club. Claude Code plugins for evidence collection, SCF crosswalks, multi-framework gap reports, OSCAL workflows._<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 2 closed · merged diff **+1,698 / −7**
 - **[ReversecLabs/spikee](https://github.com/ReversecLabs/spikee)** (268 ⭐) — _Simple Prompt Injection Kit for Evaluation and Exploitation_<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 1 closed · merged diff **+199 / −2**
@@ -139,8 +139,8 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[stacklok/toolhive](https://github.com/stacklok/toolhive)** (2.3K ⭐) — _ToolHive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers._<br>&nbsp;&nbsp;⚪ 1 closed
 - **[utkusen/promptmap](https://github.com/utkusen/promptmap)** (1.3K ⭐) — _a security scanner for custom LLM applications_<br>&nbsp;&nbsp;🟡 1 in review
 - **[safedep/vet](https://github.com/safedep/vet)** (1.1K ⭐) — _Protect against malicious open source packages 🤖_<br>&nbsp;&nbsp;⚪ 1 closed
-- **[trailofbits/fickling](https://github.com/trailofbits/fickling)** (675 ⭐) — _A Python pickling decompiler and static analyzer_<br>&nbsp;&nbsp;⚪ 1 closed
-- **[ossf/malicious-packages](https://github.com/ossf/malicious-packages)** (634 ⭐) — _A repository of reports of malicious packages identified in Open Source package repositories, consumable via the Open Source Vulnerability (OSV) format._<br>&nbsp;&nbsp;🟡 1 in review
+- **[trailofbits/fickling](https://github.com/trailofbits/fickling)** (676 ⭐) — _A Python pickling decompiler and static analyzer_<br>&nbsp;&nbsp;⚪ 1 closed
+- **[ossf/malicious-packages](https://github.com/ossf/malicious-packages)** (633 ⭐) — _A repository of reports of malicious packages identified in Open Source package repositories, consumable via the Open Source Vulnerability (OSV) format._<br>&nbsp;&nbsp;🟡 1 in review
 - **[trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules)** (533 ⭐) — _Semgrep queries developed by Trail of Bits._<br>&nbsp;&nbsp;🟡 1 in review
 
 <details>
@@ -158,10 +158,10 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.2K | [#16052](https://github.com/projectdiscovery/nuclei-templates/pull/16052) fix(CVE-2021-40438): support custom interactsh server hostnames (FN) | +1 / −1 | ✅ Merged |
 | [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | 12.7K | [#3370](https://github.com/redcanaryco/atomic-red-team/pull/3370) Add T1567.004 - Exfiltration Over Webhook (Discord/Slack/Teams) | +111 / −0 | ✅ Merged |
 | [NVIDIA/garak](https://github.com/NVIDIA/garak) | 9.7K | [#1859](https://github.com/NVIDIA/garak/pull/1859) fix: catch OpenAI AuthenticationError before multiprocessing pickle | +107 / −0 | ✅ Merged |
-| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 6.9K | [#427](https://github.com/Tencent/AI-Infra-Guard/pull/427) feat(eval): add agentic-tool-misuse evaluation dataset | +384 / −0 | ✅ Merged |
-| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 6.9K | [#424](https://github.com/Tencent/AI-Infra-Guard/pull/424) feat(data): add 6 llama.cpp CVE rules (RPC RCE + GGUF/tokenizer mem… | +267 / −0 | ✅ Merged |
-| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 6.9K | [#429](https://github.com/Tencent/AI-Infra-Guard/pull/429) feat(agent-scan): add memory/RAG poisoning detection skill | +177 / −0 | ✅ Merged |
-| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 6.9K | [#664](https://github.com/Tencent/AI-Infra-Guard/pull/664) test(agent-scan): pin the detection-skill registration contract | +92 / −0 | ✅ Merged |
+| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 7.0K | [#427](https://github.com/Tencent/AI-Infra-Guard/pull/427) feat(eval): add agentic-tool-misuse evaluation dataset | +384 / −0 | ✅ Merged |
+| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 7.0K | [#424](https://github.com/Tencent/AI-Infra-Guard/pull/424) feat(data): add 6 llama.cpp CVE rules (RPC RCE + GGUF/tokenizer mem… | +267 / −0 | ✅ Merged |
+| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 7.0K | [#429](https://github.com/Tencent/AI-Infra-Guard/pull/429) feat(agent-scan): add memory/RAG poisoning detection skill | +177 / −0 | ✅ Merged |
+| [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 7.0K | [#664](https://github.com/Tencent/AI-Infra-Guard/pull/664) test(agent-scan): pin the detection-skill registration contract | +92 / −0 | ✅ Merged |
 | [intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl) | 4.8K | [#3802](https://github.com/intelowlproject/IntelOwl/pull/3802) Add CVE_Exploitability analyzer (CISA KEV + FIRST EPSS) for CVE obs… | +376 / −0 | ✅ Merged |
 | [msoedov/agentic_security](https://github.com/msoedov/agentic_security) | 2.0K | [#321](https://github.com/msoedov/agentic_security/pull/321) feat: config-pluggable refusal classifiers and leak detectors | +491 / −4 | ✅ Merged |
 | [msoedov/agentic_security](https://github.com/msoedov/agentic_security) | 2.0K | [#320](https://github.com/msoedov/agentic_security/pull/320) fix: wildcard CORS + credentials spec violation, path-traversal gua… | +229 / −3 | ✅ Merged |
@@ -186,7 +186,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu) | 5.4K | [#534](https://github.com/RhinoSecurityLabs/pacu/pull/534) fix(sns__enum): paginate list_topics and list_subscriptions_by_topi… | +346 / −7 | 🟡 In review |
 | [confident-ai/deepteam](https://github.com/confident-ai/deepteam) | 3.0K | [#236](https://github.com/confident-ai/deepteam/pull/236) feat(attacks): add Caesar, Morse, hex, zero-width & homoglyph encod… | +858 / −0 | 🟡 In review |
 | [utkusen/promptmap](https://github.com/utkusen/promptmap) | 1.3K | [#10](https://github.com/utkusen/promptmap/pull/10) feat(rules): add indirect_injection category (12 rules) | +243 / −6 | 🟡 In review |
-| [ossf/malicious-packages](https://github.com/ossf/malicious-packages) | 634 | [#1329](https://github.com/ossf/malicious-packages/pull/1329) docs: add a consumer guide for using the reports | +296 / −0 | 🟡 In review |
+| [ossf/malicious-packages](https://github.com/ossf/malicious-packages) | 633 | [#1329](https://github.com/ossf/malicious-packages/pull/1329) docs: add a consumer guide for using the reports | +296 / −0 | 🟡 In review |
 | [trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules) | 533 | [#83](https://github.com/trailofbits/semgrep-rules/pull/83) python: add hf-trust-remote-code rule (HuggingFace trust_remote_cod… | +103 / −0 | 🟡 In review |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.2K | [#16054](https://github.com/projectdiscovery/nuclei-templates/pull/16054) add: Langflow unauthenticated flow API exposure detection | +80 / −0 | ⚪ Closed |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.2K | [#17270](https://github.com/projectdiscovery/nuclei-templates/pull/17270) Add NVIDIA Triton Inference Server unauthenticated model repository… | +67 / −0 | ⚪ Closed |
@@ -198,7 +198,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team) | 2.4K | [#886](https://github.com/DataDog/stratus-red-team/pull/886) Add MITRE ATLAS as a first-class framework mapping (Cost Harvesting… | +27 / −1 | ⚪ Closed |
 | [stacklok/toolhive](https://github.com/stacklok/toolhive) | 2.3K | [#5588](https://github.com/stacklok/toolhive/pull/5588) Add CORS support to the transparent MCP proxy | +665 / −4 | ⚪ Closed |
 | [safedep/vet](https://github.com/safedep/vet) | 1.1K | [#745](https://github.com/safedep/vet/pull/745) feat: add pre-commit hook for local dependency scanning (closes #443) | +116 / −0 | ⚪ Closed |
-| [trailofbits/fickling](https://github.com/trailofbits/fickling) | 675 | [#283](https://github.com/trailofbits/fickling/pull/283) Add recursive directory and glob scanning to the CLI for bulk pickl… | +330 / −1 | ⚪ Closed |
+| [trailofbits/fickling](https://github.com/trailofbits/fickling) | 676 | [#283](https://github.com/trailofbits/fickling/pull/283) Add recursive directory and glob scanning to the CLI for bulk pickl… | +330 / −1 | ⚪ Closed |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 422 | [#235](https://github.com/GRCEngClub/claude-grc-engineering/pull/235) fix(docs): repair three dead links breaking the link-check workflow | +350 / −246 | ⚪ Closed |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 422 | [#70](https://github.com/GRCEngClub/claude-grc-engineering/pull/70) fix(plugins): use object form for plugin.json author field | +7 / −7 | ⚪ Closed |
 | [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 268 | [#110](https://github.com/ReversecLabs/spikee/pull/110) feat(judges): add secret_leak judge for credential/PII exfiltration… | +338 / −0 | ⚪ Closed |
