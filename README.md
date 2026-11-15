@@ -128,7 +128,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[falcosecurity/rules](https://github.com/falcosecurity/rules)** (194 ⭐) — _Falco rule repository_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+93 / −0**
 - **[kubescape/regolibrary](https://github.com/kubescape/regolibrary)** (135 ⭐) — _The regolibrary package contains the controls Kubescape uses for detecting misconfigurations in Kubernetes manifests._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+96 / −3**
 - **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)** (51.9K ⭐) — _Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production._<br>&nbsp;&nbsp;🟡 1 in review
-- **[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** (31.0K ⭐) — _Find secrets with Gitleaks 🔑_<br>&nbsp;&nbsp;🟡 2 in review
+- **[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** (31.1K ⭐) — _Find secrets with Gitleaks 🔑_<br>&nbsp;&nbsp;🟡 2 in review
 - **[blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot)** (11.1K ⭐) — _The recursive internet scanner for hackers. 🧡_<br>&nbsp;&nbsp;🟡 1 in review
 - **[PyCQA/bandit](https://github.com/PyCQA/bandit)** (8.4K ⭐) — _Bandit is a tool designed to find common security issues in Python code._<br>&nbsp;&nbsp;🟡 1 in review
 - **[Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)** (6.0K ⭐) — _The Network Execution Tool_<br>&nbsp;&nbsp;⚪ 1 closed
@@ -178,8 +178,8 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [falcosecurity/rules](https://github.com/falcosecurity/rules) | 194 | [#373](https://github.com/falcosecurity/rules/pull/373) new(rules): detect GPU/accelerator cryptojacking and device access … | +93 / −0 | ✅ Merged |
 | [kubescape/regolibrary](https://github.com/kubescape/regolibrary) | 135 | [#753](https://github.com/kubescape/regolibrary/pull/753) feat(C-0021): cover AI/ML inference and MLOps interfaces in sensiti… | +96 / −3 | ✅ Merged |
 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 51.9K | [#322](https://github.com/KeygraphHQ/shannon/pull/322) Security hardening, CLI bug fixes, and SARIF report output | +26 / −6 | 🟡 In review |
-| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 31.0K | [#2177](https://github.com/gitleaks/gitleaks/pull/2177) feat(rules): add Pinecone and LangSmith API key detection rules | +89 / −0 | 🟡 In review |
-| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 31.0K | [#2178](https://github.com/gitleaks/gitleaks/pull/2178) feat(rules): add Anthropic OAuth refresh token rule (sk-ant-ort01-) | +36 / −0 | 🟡 In review |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 31.1K | [#2177](https://github.com/gitleaks/gitleaks/pull/2177) feat(rules): add Pinecone and LangSmith API key detection rules | +89 / −0 | 🟡 In review |
+| [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 31.1K | [#2178](https://github.com/gitleaks/gitleaks/pull/2178) feat(rules): add Anthropic OAuth refresh token rule (sk-ant-ort01-) | +36 / −0 | 🟡 In review |
 | [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot) | 11.1K | [#3235](https://github.com/blacklanternsecurity/bbot/pull/3235) excavate: add AIApplicationExtractor for LLM endpoints, SDKs, and l… | +168 / −0 | 🟡 In review |
 | [PyCQA/bandit](https://github.com/PyCQA/bandit) | 8.4K | [#1441](https://github.com/PyCQA/bandit/pull/1441) fix(B614): lower confidence for unresolvable weights_only; add torc… | +59 / −3 | 🟡 In review |
 | [RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu) | 5.4K | [#534](https://github.com/RhinoSecurityLabs/pacu/pull/534) fix(sns__enum): paginate list_topics and list_subscriptions_by_topi… | +346 / −7 | 🟡 In review |
