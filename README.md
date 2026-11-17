@@ -107,7 +107,7 @@ Human-mimicry by design. Always safe-mode. Full jitter. Never 24/7. Built on the
 Public pull requests to repositories I don't own — auto-refreshed daily.
 
 <!-- contributions:start -->
-**29 merged · 10 in review · 15 closed** across **31** external project(s).
+**29 merged · 9 in review · 16 closed** across **31** external project(s).
 
 ### Projects with accepted contributions
 
@@ -115,8 +115,8 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)** (7.5K ⭐) — _A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation._<br>&nbsp;&nbsp;✅ 4 merged · merged diff **+920 / −0**
 - **[msoedov/agentic_security](https://github.com/msoedov/agentic_security)** (2.0K ⭐) — _Agentic LLM Vulnerability Scanner / AI red teaming kit 🧪_<br>&nbsp;&nbsp;✅ 2 merged · merged diff **+720 / −7**
 - **[GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering)** (436 ⭐) — _Open-source GRC toolkit from the GRC Engineering Club. Claude Code plugins for evidence collection, SCF crosswalks, multi-framework gap reports, OSCAL workflows._<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 2 closed · merged diff **+1,698 / −7**
-- **[ReversecLabs/spikee](https://github.com/ReversecLabs/spikee)** (274 ⭐) — _Simple Prompt Injection Kit for Evaluation and Exploitation_<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 1 closed · merged diff **+199 / −2**
-- **[projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)** (33.0K ⭐) — _Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+1,254 / −0**
+- **[ReversecLabs/spikee](https://github.com/ReversecLabs/spikee)** (275 ⭐) — _Simple Prompt Injection Kit for Evaluation and Exploitation_<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 1 closed · merged diff **+199 / −2**
+- **[projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)** (33.1K ⭐) — _Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+1,254 / −0**
 - **[redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team)** (12.9K ⭐) — _Small and highly portable detection tests based on MITRE's ATT&CK._<br>&nbsp;&nbsp;✅ 1 merged · ⚪ 1 closed · merged diff **+111 / −0**
 - **[NVIDIA/garak](https://github.com/NVIDIA/garak)** (10.1K ⭐) — _the LLM vulnerability scanner_<br>&nbsp;&nbsp;✅ 1 merged · ⚪ 1 closed · merged diff **+107 / −0**
 - **[intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl)** (4.8K ⭐) — _IntelOwl: manage your Threat Intelligence at scale_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+376 / −0**
@@ -129,7 +129,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[kubescape/regolibrary](https://github.com/kubescape/regolibrary)** (135 ⭐) — _The regolibrary package contains the controls Kubescape uses for detecting misconfigurations in Kubernetes manifests._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+96 / −3**
 - **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)** (52.0K ⭐) — _Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production._<br>&nbsp;&nbsp;🟡 1 in review
 - **[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** (31.1K ⭐) — _Find secrets with Gitleaks 🔑_<br>&nbsp;&nbsp;🟡 2 in review
-- **[blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot)** (11.1K ⭐) — _The recursive internet scanner for hackers. 🧡_<br>&nbsp;&nbsp;🟡 1 in review
+- **[blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot)** (11.1K ⭐) — _The recursive internet scanner for hackers. 🧡_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[PyCQA/bandit](https://github.com/PyCQA/bandit)** (8.4K ⭐) — _Bandit is a tool designed to find common security issues in Python code._<br>&nbsp;&nbsp;🟡 1 in review
 - **[Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)** (6.0K ⭐) — _The Network Execution Tool_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[ossf/scorecard](https://github.com/ossf/scorecard)** (5.8K ⭐) — _OpenSSF Scorecard - Security health metrics for Open Source_<br>&nbsp;&nbsp;⚪ 1 closed
@@ -148,7 +148,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 
 | Repository | ⭐ | Pull Request | Diff | Status |
 |---|---:|---|---:|---|
-| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | 33.0K | [#7495](https://github.com/projectdiscovery/nuclei/pull/7495) feat(reporting): add CSV result exporter (-csv-export) | +1,254 / −0 | ✅ Merged |
+| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | 33.1K | [#7495](https://github.com/projectdiscovery/nuclei/pull/7495) feat(reporting): add CSV result exporter (-csv-export) | +1,254 / −0 | ✅ Merged |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.4K | [#16053](https://github.com/projectdiscovery/nuclei-templates/pull/16053) fix(tomcat-default-login): order payloads to dodge LockOutRealm (FN) | +51 / −55 | ✅ Merged |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.4K | [#17269](https://github.com/projectdiscovery/nuclei-templates/pull/17269) MCP Streamable HTTP Server - Unauthenticated Initialize | +67 / −0 | ✅ Merged |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.4K | [#16055](https://github.com/projectdiscovery/nuclei-templates/pull/16055) add: LiteLLM proxy unauthenticated /model/info exposure | +51 / −0 | ✅ Merged |
@@ -170,8 +170,8 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 436 | [#72](https://github.com/GRCEngClub/claude-grc-engineering/pull/72) feat(frameworks): Reference-depth India DPDPA plugin (ind-dpdpa) | +1,425 / −0 | ✅ Merged |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 436 | [#71](https://github.com/GRCEngClub/claude-grc-engineering/pull/71) ci(plugins): validate manifests against JSON Schema on every PR | +273 / −7 | ✅ Merged |
 | [sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules) | 382 | [#4655](https://github.com/sublime-security/sublime-rules/pull/4655) fix: replace deprecated $alexa_1m with $tranco_1m in link_cuttly di… | +1 / −1 | ✅ Merged |
-| [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 274 | [#109](https://github.com/ReversecLabs/spikee/pull/109) feat: add homoglyph encoding plugin (Unicode confusables) | +197 / −0 | ✅ Merged |
-| [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 274 | [#111](https://github.com/ReversecLabs/spikee/pull/111) docs: fix GOAT citation and note workspace-only status in 02_builti… | +2 / −2 | ✅ Merged |
+| [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 275 | [#109](https://github.com/ReversecLabs/spikee/pull/109) feat: add homoglyph encoding plugin (Unicode confusables) | +197 / −0 | ✅ Merged |
+| [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 275 | [#111](https://github.com/ReversecLabs/spikee/pull/111) docs: fix GOAT citation and note workspace-only status in 02_builti… | +2 / −2 | ✅ Merged |
 | [sigstore/model-transparency](https://github.com/sigstore/model-transparency) | 249 | [#642](https://github.com/sigstore/model-transparency/pull/642) feat: Add in-memory signing API returning the Sigstore bundle as bytes | +139 / −4 | ✅ Merged |
 | [Yamato-Security/hayabusa-rules](https://github.com/Yamato-Security/hayabusa-rules) | 233 | [#1036](https://github.com/Yamato-Security/hayabusa-rules/pull/1036) ci: block merge when a rule id (UUID) is used by more than one rule… | +407 / −0 | ✅ Merged |
 | [t0sche/cvss-bt](https://github.com/t0sche/cvss-bt) | 227 | [#46](https://github.com/t0sche/cvss-bt/pull/46) feat: add exploit_maturity_source column for auditable E-value prov… | +158 / −1 | ✅ Merged |
@@ -180,7 +180,6 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 52.0K | [#322](https://github.com/KeygraphHQ/shannon/pull/322) Security hardening, CLI bug fixes, and SARIF report output | +26 / −6 | 🟡 In review |
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 31.1K | [#2177](https://github.com/gitleaks/gitleaks/pull/2177) feat(rules): add Pinecone and LangSmith API key detection rules | +89 / −0 | 🟡 In review |
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 31.1K | [#2178](https://github.com/gitleaks/gitleaks/pull/2178) feat(rules): add Anthropic OAuth refresh token rule (sk-ant-ort01-) | +36 / −0 | 🟡 In review |
-| [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot) | 11.1K | [#3235](https://github.com/blacklanternsecurity/bbot/pull/3235) excavate: add AIApplicationExtractor for LLM endpoints, SDKs, and l… | +168 / −0 | 🟡 In review |
 | [PyCQA/bandit](https://github.com/PyCQA/bandit) | 8.4K | [#1441](https://github.com/PyCQA/bandit/pull/1441) fix(B614): lower confidence for unresolvable weights_only; add torc… | +59 / −3 | 🟡 In review |
 | [RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu) | 5.4K | [#534](https://github.com/RhinoSecurityLabs/pacu/pull/534) fix(sns__enum): paginate list_topics and list_subscriptions_by_topi… | +346 / −7 | 🟡 In review |
 | [confident-ai/deepteam](https://github.com/confident-ai/deepteam) | 3.1K | [#236](https://github.com/confident-ai/deepteam/pull/236) feat(attacks): add Caesar, Morse, hex, zero-width & homoglyph encod… | +858 / −0 | 🟡 In review |
@@ -192,6 +191,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.4K | [#16386](https://github.com/projectdiscovery/nuclei-templates/pull/16386) add: Qdrant vector database - unauthenticated collections exposure | +48 / −0 | ⚪ Closed |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.4K | [#16051](https://github.com/projectdiscovery/nuclei-templates/pull/16051) fix(CVE-2025-58360): switch GeoServer XXE detection to OAST (FN on … | +15 / −8 | ⚪ Closed |
 | [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | 12.9K | [#3359](https://github.com/redcanaryco/atomic-red-team/pull/3359) Add T1213.005 - Data from Information Repositories: Messaging Appli… | +187 / −0 | ⚪ Closed |
+| [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot) | 11.1K | [#3235](https://github.com/blacklanternsecurity/bbot/pull/3235) excavate: add AIApplicationExtractor for LLM endpoints, SDKs, and l… | +168 / −0 | ⚪ Closed |
 | [NVIDIA/garak](https://github.com/NVIDIA/garak) | 10.1K | [#1858](https://github.com/NVIDIA/garak/pull/1858) probes: add many-shot jailbreaking probe | +195 / −0 | ⚪ Closed |
 | [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | 6.0K | [#1289](https://github.com/Pennyw0rth/NetExec/pull/1289) fix(mssql): print a clean error for --rid-brute without authentication | +3 / −0 | ⚪ Closed |
 | [ossf/scorecard](https://github.com/ossf/scorecard) | 5.8K | [#5103](https://github.com/ossf/scorecard/pull/5103) checks/sast: detect Semgrep, Bandit, and gosec SAST workflows | +162 / −0 | ⚪ Closed |
@@ -201,7 +201,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [trailofbits/fickling](https://github.com/trailofbits/fickling) | 679 | [#283](https://github.com/trailofbits/fickling/pull/283) Add recursive directory and glob scanning to the CLI for bulk pickl… | +330 / −1 | ⚪ Closed |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 436 | [#235](https://github.com/GRCEngClub/claude-grc-engineering/pull/235) fix(docs): repair three dead links breaking the link-check workflow | +350 / −246 | ⚪ Closed |
 | [GRCEngClub/claude-grc-engineering](https://github.com/GRCEngClub/claude-grc-engineering) | 436 | [#70](https://github.com/GRCEngClub/claude-grc-engineering/pull/70) fix(plugins): use object form for plugin.json author field | +7 / −7 | ⚪ Closed |
-| [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 274 | [#110](https://github.com/ReversecLabs/spikee/pull/110) feat(judges): add secret_leak judge for credential/PII exfiltration… | +338 / −0 | ⚪ Closed |
+| [ReversecLabs/spikee](https://github.com/ReversecLabs/spikee) | 275 | [#110](https://github.com/ReversecLabs/spikee/pull/110) feat(judges): add secret_leak judge for credential/PII exfiltration… | +338 / −0 | ⚪ Closed |
 
 </details>
 <!-- contributions:end -->
