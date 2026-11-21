@@ -127,12 +127,12 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[t0sche/cvss-bt](https://github.com/t0sche/cvss-bt)** (227 ⭐) — _Enriching the NVD CVSS scores to include Temporal & Threat Metrics_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+158 / −1**
 - **[falcosecurity/rules](https://github.com/falcosecurity/rules)** (195 ⭐) — _Falco rule repository_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+93 / −0**
 - **[kubescape/regolibrary](https://github.com/kubescape/regolibrary)** (135 ⭐) — _The regolibrary package contains the controls Kubescape uses for detecting misconfigurations in Kubernetes manifests._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+96 / −3**
-- **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)** (52.1K ⭐) — _Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production._<br>&nbsp;&nbsp;🟡 1 in review
+- **[KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)** (52.2K ⭐) — _Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production._<br>&nbsp;&nbsp;🟡 1 in review
 - **[gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)** (31.2K ⭐) — _Find secrets with Gitleaks 🔑_<br>&nbsp;&nbsp;🟡 2 in review
 - **[blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot)** (11.2K ⭐) — _The recursive internet scanner for hackers. 🧡_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[PyCQA/bandit](https://github.com/PyCQA/bandit)** (8.4K ⭐) — _Bandit is a tool designed to find common security issues in Python code._<br>&nbsp;&nbsp;🟡 1 in review
 - **[Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)** (6.0K ⭐) — _The Network Execution Tool_<br>&nbsp;&nbsp;⚪ 1 closed
-- **[ossf/scorecard](https://github.com/ossf/scorecard)** (5.8K ⭐) — _OpenSSF Scorecard - Security health metrics for Open Source_<br>&nbsp;&nbsp;⚪ 1 closed
+- **[ossf/scorecard](https://github.com/ossf/scorecard)** (5.9K ⭐) — _OpenSSF Scorecard - Security health metrics for Open Source_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu)** (5.4K ⭐) — _The AWS exploitation framework, designed for testing the security of Amazon Web Services environments._<br>&nbsp;&nbsp;🟡 1 in review
 - **[confident-ai/deepteam](https://github.com/confident-ai/deepteam)** (3.1K ⭐) — _DeepTeam is a framework to red team LLMs and AI agents._<br>&nbsp;&nbsp;🟡 1 in review
 - **[DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team)** (2.5K ⭐) — _:cloud: :zap: Granular, Actionable Adversary Emulation for the Cloud_<br>&nbsp;&nbsp;⚪ 1 closed
@@ -177,7 +177,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [t0sche/cvss-bt](https://github.com/t0sche/cvss-bt) | 227 | [#46](https://github.com/t0sche/cvss-bt/pull/46) feat: add exploit_maturity_source column for auditable E-value prov… | +158 / −1 | ✅ Merged |
 | [falcosecurity/rules](https://github.com/falcosecurity/rules) | 195 | [#373](https://github.com/falcosecurity/rules/pull/373) new(rules): detect GPU/accelerator cryptojacking and device access … | +93 / −0 | ✅ Merged |
 | [kubescape/regolibrary](https://github.com/kubescape/regolibrary) | 135 | [#753](https://github.com/kubescape/regolibrary/pull/753) feat(C-0021): cover AI/ML inference and MLOps interfaces in sensiti… | +96 / −3 | ✅ Merged |
-| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 52.1K | [#322](https://github.com/KeygraphHQ/shannon/pull/322) Security hardening, CLI bug fixes, and SARIF report output | +26 / −6 | 🟡 In review |
+| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 52.2K | [#322](https://github.com/KeygraphHQ/shannon/pull/322) Security hardening, CLI bug fixes, and SARIF report output | +26 / −6 | 🟡 In review |
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 31.2K | [#2177](https://github.com/gitleaks/gitleaks/pull/2177) feat(rules): add Pinecone and LangSmith API key detection rules | +89 / −0 | 🟡 In review |
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 31.2K | [#2178](https://github.com/gitleaks/gitleaks/pull/2178) feat(rules): add Anthropic OAuth refresh token rule (sk-ant-ort01-) | +36 / −0 | 🟡 In review |
 | [PyCQA/bandit](https://github.com/PyCQA/bandit) | 8.4K | [#1441](https://github.com/PyCQA/bandit/pull/1441) fix(B614): lower confidence for unresolvable weights_only; add torc… | +59 / −3 | 🟡 In review |
@@ -194,7 +194,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot) | 11.2K | [#3235](https://github.com/blacklanternsecurity/bbot/pull/3235) excavate: add AIApplicationExtractor for LLM endpoints, SDKs, and l… | +168 / −0 | ⚪ Closed |
 | [NVIDIA/garak](https://github.com/NVIDIA/garak) | 10.1K | [#1858](https://github.com/NVIDIA/garak/pull/1858) probes: add many-shot jailbreaking probe | +195 / −0 | ⚪ Closed |
 | [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | 6.0K | [#1289](https://github.com/Pennyw0rth/NetExec/pull/1289) fix(mssql): print a clean error for --rid-brute without authentication | +3 / −0 | ⚪ Closed |
-| [ossf/scorecard](https://github.com/ossf/scorecard) | 5.8K | [#5103](https://github.com/ossf/scorecard/pull/5103) checks/sast: detect Semgrep, Bandit, and gosec SAST workflows | +162 / −0 | ⚪ Closed |
+| [ossf/scorecard](https://github.com/ossf/scorecard) | 5.9K | [#5103](https://github.com/ossf/scorecard/pull/5103) checks/sast: detect Semgrep, Bandit, and gosec SAST workflows | +162 / −0 | ⚪ Closed |
 | [DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team) | 2.5K | [#886](https://github.com/DataDog/stratus-red-team/pull/886) Add MITRE ATLAS as a first-class framework mapping (Cost Harvesting… | +27 / −1 | ⚪ Closed |
 | [stacklok/toolhive](https://github.com/stacklok/toolhive) | 2.3K | [#5588](https://github.com/stacklok/toolhive/pull/5588) Add CORS support to the transparent MCP proxy | +665 / −4 | ⚪ Closed |
 | [safedep/vet](https://github.com/safedep/vet) | 1.1K | [#745](https://github.com/safedep/vet/pull/745) feat: add pre-commit hook for local dependency scanning (closes #443) | +116 / −0 | ⚪ Closed |
