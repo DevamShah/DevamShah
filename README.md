@@ -18,8 +18,8 @@
 <br><br>
 
 <!-- merged-badge:start -->
-<img src="https://img.shields.io/badge/OSS_Merged_PRs-29-d4a24c?style=for-the-badge&logo=github&logoColor=d4a24c&labelColor=0a0f22">
-<img src="https://img.shields.io/badge/Across-16_security_projects-0a0f22?style=for-the-badge&labelColor=0a0f22">
+<img src="https://img.shields.io/badge/OSS_Merged_PRs-30-d4a24c?style=for-the-badge&logo=github&logoColor=d4a24c&labelColor=0a0f22">
+<img src="https://img.shields.io/badge/Across-17_security_projects-0a0f22?style=for-the-badge&labelColor=0a0f22">
 <!-- merged-badge:end -->
 
 </div>
@@ -107,7 +107,7 @@ Human-mimicry by design. Always safe-mode. Full jitter. Never 24/7. Built on the
 Public pull requests to repositories I don't own — auto-refreshed daily.
 
 <!-- contributions:start -->
-**29 merged · 9 in review · 16 closed** across **31** external project(s).
+**30 merged · 8 in review · 16 closed** across **31** external project(s).
 
 ### Projects with accepted contributions
 
@@ -118,8 +118,9 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[ReversecLabs/spikee](https://github.com/ReversecLabs/spikee)** (276 ⭐) — _Simple Prompt Injection Kit for Evaluation and Exploitation_<br>&nbsp;&nbsp;✅ 2 merged · ⚪ 1 closed · merged diff **+199 / −2**
 - **[projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)** (33.2K ⭐) — _Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+1,254 / −0**
 - **[redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team)** (12.9K ⭐) — _Small and highly portable detection tests based on MITRE's ATT&CK._<br>&nbsp;&nbsp;✅ 1 merged · ⚪ 1 closed · merged diff **+111 / −0**
-- **[NVIDIA/garak](https://github.com/NVIDIA/garak)** (10.1K ⭐) — _the LLM vulnerability scanner_<br>&nbsp;&nbsp;✅ 1 merged · ⚪ 1 closed · merged diff **+107 / −0**
+- **[NVIDIA/garak](https://github.com/NVIDIA/garak)** (10.2K ⭐) — _the LLM vulnerability scanner_<br>&nbsp;&nbsp;✅ 1 merged · ⚪ 1 closed · merged diff **+107 / −0**
 - **[intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl)** (4.8K ⭐) — _IntelOwl: manage your Threat Intelligence at scale_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+376 / −0**
+- **[confident-ai/deepteam](https://github.com/confident-ai/deepteam)** (3.1K ⭐) — _DeepTeam is a framework to red team LLMs and AI agents._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+858 / −0**
 - **[vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup)** (617 ⭐) — _Vulnerability-Lookup facilitates quick correlation of vulnerabilities from various sources, independent of vulnerability IDs, and streamlines the management of Coordinated Vulnerability Disclosure (CVD)._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+50 / −0**
 - **[sublime-security/sublime-rules](https://github.com/sublime-security/sublime-rules)** (382 ⭐) — _Sublime rules for email attack detection, prevention, and threat hunting._<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+1 / −1**
 - **[sigstore/model-transparency](https://github.com/sigstore/model-transparency)** (250 ⭐) — _Supply chain security for ML_<br>&nbsp;&nbsp;✅ 1 merged · merged diff **+139 / −4**
@@ -134,13 +135,12 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 - **[Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec)** (6.0K ⭐) — _The Network Execution Tool_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[ossf/scorecard](https://github.com/ossf/scorecard)** (5.9K ⭐) — _OpenSSF Scorecard - Security health metrics for Open Source_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu)** (5.4K ⭐) — _The AWS exploitation framework, designed for testing the security of Amazon Web Services environments._<br>&nbsp;&nbsp;🟡 1 in review
-- **[confident-ai/deepteam](https://github.com/confident-ai/deepteam)** (3.1K ⭐) — _DeepTeam is a framework to red team LLMs and AI agents._<br>&nbsp;&nbsp;🟡 1 in review
 - **[DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team)** (2.5K ⭐) — _:cloud: :zap: Granular, Actionable Adversary Emulation for the Cloud_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[stacklok/toolhive](https://github.com/stacklok/toolhive)** (2.4K ⭐) — _ToolHive is an enterprise-grade platform for running and managing Model Context Protocol (MCP) servers._<br>&nbsp;&nbsp;⚪ 1 closed
 - **[utkusen/promptmap](https://github.com/utkusen/promptmap)** (1.3K ⭐) — _a security scanner for custom LLM applications_<br>&nbsp;&nbsp;🟡 1 in review
 - **[safedep/vet](https://github.com/safedep/vet)** (1.1K ⭐) — _Protect against malicious open source packages 🤖_<br>&nbsp;&nbsp;⚪ 1 closed
 - **[trailofbits/fickling](https://github.com/trailofbits/fickling)** (678 ⭐) — _A Python pickling decompiler and static analyzer_<br>&nbsp;&nbsp;⚪ 1 closed
-- **[ossf/malicious-packages](https://github.com/ossf/malicious-packages)** (645 ⭐) — _A repository of reports of malicious packages identified in Open Source package repositories, consumable via the Open Source Vulnerability (OSV) format._<br>&nbsp;&nbsp;🟡 1 in review
+- **[ossf/malicious-packages](https://github.com/ossf/malicious-packages)** (646 ⭐) — _A repository of reports of malicious packages identified in Open Source package repositories, consumable via the Open Source Vulnerability (OSV) format._<br>&nbsp;&nbsp;🟡 1 in review
 - **[trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules)** (537 ⭐) — _Semgrep queries developed by Trail of Bits._<br>&nbsp;&nbsp;🟡 1 in review
 
 <details>
@@ -158,12 +158,13 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.4K | [#16050](https://github.com/projectdiscovery/nuclei-templates/pull/16050) fix: drop clear-site-data matcher from http-missing-security-header… | +0 / −7 | ✅ Merged |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.4K | [#16052](https://github.com/projectdiscovery/nuclei-templates/pull/16052) fix(CVE-2021-40438): support custom interactsh server hostnames (FN) | +1 / −1 | ✅ Merged |
 | [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | 12.9K | [#3370](https://github.com/redcanaryco/atomic-red-team/pull/3370) Add T1567.004 - Exfiltration Over Webhook (Discord/Slack/Teams) | +111 / −0 | ✅ Merged |
-| [NVIDIA/garak](https://github.com/NVIDIA/garak) | 10.1K | [#1859](https://github.com/NVIDIA/garak/pull/1859) fix: catch OpenAI AuthenticationError before multiprocessing pickle | +107 / −0 | ✅ Merged |
+| [NVIDIA/garak](https://github.com/NVIDIA/garak) | 10.2K | [#1859](https://github.com/NVIDIA/garak/pull/1859) fix: catch OpenAI AuthenticationError before multiprocessing pickle | +107 / −0 | ✅ Merged |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 7.6K | [#427](https://github.com/Tencent/AI-Infra-Guard/pull/427) feat(eval): add agentic-tool-misuse evaluation dataset | +384 / −0 | ✅ Merged |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 7.6K | [#424](https://github.com/Tencent/AI-Infra-Guard/pull/424) feat(data): add 6 llama.cpp CVE rules (RPC RCE + GGUF/tokenizer mem… | +267 / −0 | ✅ Merged |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 7.6K | [#429](https://github.com/Tencent/AI-Infra-Guard/pull/429) feat(agent-scan): add memory/RAG poisoning detection skill | +177 / −0 | ✅ Merged |
 | [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | 7.6K | [#664](https://github.com/Tencent/AI-Infra-Guard/pull/664) test(agent-scan): pin the detection-skill registration contract | +92 / −0 | ✅ Merged |
 | [intelowlproject/IntelOwl](https://github.com/intelowlproject/IntelOwl) | 4.8K | [#3802](https://github.com/intelowlproject/IntelOwl/pull/3802) Add CVE_Exploitability analyzer (CISA KEV + FIRST EPSS) for CVE obs… | +376 / −0 | ✅ Merged |
+| [confident-ai/deepteam](https://github.com/confident-ai/deepteam) | 3.1K | [#236](https://github.com/confident-ai/deepteam/pull/236) feat(attacks): add Caesar, Morse, hex, zero-width & homoglyph encod… | +858 / −0 | ✅ Merged |
 | [msoedov/agentic_security](https://github.com/msoedov/agentic_security) | 2.0K | [#321](https://github.com/msoedov/agentic_security/pull/321) feat: config-pluggable refusal classifiers and leak detectors | +491 / −4 | ✅ Merged |
 | [msoedov/agentic_security](https://github.com/msoedov/agentic_security) | 2.0K | [#320](https://github.com/msoedov/agentic_security/pull/320) fix: wildcard CORS + credentials spec violation, path-traversal gua… | +229 / −3 | ✅ Merged |
 | [vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup) | 617 | [#431](https://github.com/vulnerability-lookup/vulnerability-lookup/pull/431) new: [perf] add pg_trgm GIN indexes for sighting source/vulnerabili… | +50 / −0 | ✅ Merged |
@@ -182,9 +183,8 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | 31.3K | [#2178](https://github.com/gitleaks/gitleaks/pull/2178) feat(rules): add Anthropic OAuth refresh token rule (sk-ant-ort01-) | +36 / −0 | 🟡 In review |
 | [PyCQA/bandit](https://github.com/PyCQA/bandit) | 8.4K | [#1441](https://github.com/PyCQA/bandit/pull/1441) fix(B614): lower confidence for unresolvable weights_only; add torc… | +59 / −3 | 🟡 In review |
 | [RhinoSecurityLabs/pacu](https://github.com/RhinoSecurityLabs/pacu) | 5.4K | [#534](https://github.com/RhinoSecurityLabs/pacu/pull/534) fix(sns__enum): paginate list_topics and list_subscriptions_by_topi… | +346 / −7 | 🟡 In review |
-| [confident-ai/deepteam](https://github.com/confident-ai/deepteam) | 3.1K | [#236](https://github.com/confident-ai/deepteam/pull/236) feat(attacks): add Caesar, Morse, hex, zero-width & homoglyph encod… | +858 / −0 | 🟡 In review |
 | [utkusen/promptmap](https://github.com/utkusen/promptmap) | 1.3K | [#10](https://github.com/utkusen/promptmap/pull/10) feat(rules): add indirect_injection category (12 rules) | +243 / −6 | 🟡 In review |
-| [ossf/malicious-packages](https://github.com/ossf/malicious-packages) | 645 | [#1329](https://github.com/ossf/malicious-packages/pull/1329) docs: add a consumer guide for using the reports | +296 / −0 | 🟡 In review |
+| [ossf/malicious-packages](https://github.com/ossf/malicious-packages) | 646 | [#1329](https://github.com/ossf/malicious-packages/pull/1329) docs: add a consumer guide for using the reports | +296 / −0 | 🟡 In review |
 | [trailofbits/semgrep-rules](https://github.com/trailofbits/semgrep-rules) | 537 | [#83](https://github.com/trailofbits/semgrep-rules/pull/83) python: add hf-trust-remote-code rule (HuggingFace trust_remote_cod… | +103 / −0 | 🟡 In review |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.4K | [#16054](https://github.com/projectdiscovery/nuclei-templates/pull/16054) add: Langflow unauthenticated flow API exposure detection | +80 / −0 | ⚪ Closed |
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.4K | [#17270](https://github.com/projectdiscovery/nuclei-templates/pull/17270) Add NVIDIA Triton Inference Server unauthenticated model repository… | +67 / −0 | ⚪ Closed |
@@ -192,7 +192,7 @@ Public pull requests to repositories I don't own — auto-refreshed daily.
 | [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | 13.4K | [#16051](https://github.com/projectdiscovery/nuclei-templates/pull/16051) fix(CVE-2025-58360): switch GeoServer XXE detection to OAST (FN on … | +15 / −8 | ⚪ Closed |
 | [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | 12.9K | [#3359](https://github.com/redcanaryco/atomic-red-team/pull/3359) Add T1213.005 - Data from Information Repositories: Messaging Appli… | +187 / −0 | ⚪ Closed |
 | [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot) | 11.2K | [#3235](https://github.com/blacklanternsecurity/bbot/pull/3235) excavate: add AIApplicationExtractor for LLM endpoints, SDKs, and l… | +168 / −0 | ⚪ Closed |
-| [NVIDIA/garak](https://github.com/NVIDIA/garak) | 10.1K | [#1858](https://github.com/NVIDIA/garak/pull/1858) probes: add many-shot jailbreaking probe | +195 / −0 | ⚪ Closed |
+| [NVIDIA/garak](https://github.com/NVIDIA/garak) | 10.2K | [#1858](https://github.com/NVIDIA/garak/pull/1858) probes: add many-shot jailbreaking probe | +195 / −0 | ⚪ Closed |
 | [Pennyw0rth/NetExec](https://github.com/Pennyw0rth/NetExec) | 6.0K | [#1289](https://github.com/Pennyw0rth/NetExec/pull/1289) fix(mssql): print a clean error for --rid-brute without authentication | +3 / −0 | ⚪ Closed |
 | [ossf/scorecard](https://github.com/ossf/scorecard) | 5.9K | [#5103](https://github.com/ossf/scorecard/pull/5103) checks/sast: detect Semgrep, Bandit, and gosec SAST workflows | +162 / −0 | ⚪ Closed |
 | [DataDog/stratus-red-team](https://github.com/DataDog/stratus-red-team) | 2.5K | [#886](https://github.com/DataDog/stratus-red-team/pull/886) Add MITRE ATLAS as a first-class framework mapping (Cost Harvesting… | +27 / −1 | ⚪ Closed |
